@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Frank Orellana - Curriculum Vitae</title>
+
+<meta name="viewport" content="width=device-width"/>
+<meta name="description" content="The Curriculum Vitae of Frank Orellana."/>
+<meta charset="UTF-8"> 
+
+<link type="text/css" rel="stylesheet" href="style.css">
+<link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700|Lato:400,300' rel='stylesheet' type='text/css'>
+
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script src="https://kit.fontawesome.com/9644a42b6a.js" crossorigin="anonymous"></script>
+</head>
+<body id="top">
+<div id="cv" class="instaFade">
+
+	
+
+	<div class="mainDetails">
+
+		<div id="headshot" class="quickFade">
+			<img src="./img/headshot.png" alt="Frank Orellana" />
+		</div>
+		
+		<div id="name">
+			<h1 class="quickFade delayTwo">Franklin Orellana</h1>
+			<h2 class="quickFade delayThree" @click="testMethod">Sr. Software Developer</h2>
+		</div>
+		
+		<div id="contactDetails" class="quickFade delayFour">
+			<ul>
+				<li><i class="fas fa-envelope" aria-hidden="true"></i>: <a href="mailto:frank.orellana@tritium.cl" target="_blank">frank.orellana@tritium.cl</a></li>
+				<li><i class="fab fa-linkedin-in" aria-hidden="true"></i>: <a href="https://bit.ly/linkedin-frank">bit.ly/linkedin-frank</a></li>
+				<li><i class="fas fa-globe" aria-hidden="true"></i>: <a href="https://www.tritium.cl">www.tritium.cl</a></li>
+				<li><i class="fa fa-whatsapp" aria-hidden="true"></i>: <a href="https://wa.link/y9fi9c">+56951377594</a></li>
+			</ul>
+
+			<div class="langIcons">
+				<a @click="changeLang('es', $event)" href="#">
+					<img src="./img/24px-Spain_flag_icon.svg.png" alt="Spanish/Español" title="Español/Spanish">
+				</a>
+				&nbsp;
+				<a @click="changeLang('en', $event)" href="#">
+					<img src="./img/24px-United-states_flag_icon_round.svg.png" alt="English/Inglés" title="English/Inglés">
+				</a>
+				<br>
+				<i class="fas fa-print" onclick="window.print()"></i>
+			</div>
+
+		</div>
+		<div class="clear"></div>
+	</div>
+	
+	<div id="mainArea" class="quickFade delayFive">
+		<section>
+			<article>
+				<div class="sectionTitle">
+					<h1>{{i18n.profile}}</h1>
+				</div>
+				
+				<div class="sectionContent">
+					<p v-html="cv.profile" ></p>
+				</div>
+			</article>
+			<div class="clear"></div>
+		</section>
+		
+		
+		<section>
+			<div class="sectionTitle">
+				<h1>{{i18n.workExperience}}</h1>
+			</div>
+			
+			<div class="sectionContent">
+				<article v-for="exp in cv.experience">
+					<h2>{{exp.position}} {{i18n.at}} {{exp.company}}</h2>
+					<p class="subDetails">{{exp.country}}, {{exp.start}} - {{exp.end}}</p>
+					<p v-html="exp.description"></p>
+				</article>
+			</div>
+			<div class="clear"></div>
+		</section>
+		
+		
+		<section>
+			<div class="sectionTitle">
+				<h1>{{i18n.keySkills}}</h1>
+			</div>
+			
+			<div class="sectionContent">
+				<article>
+					<ul class="keySkills">
+						<li v-for="skill in cv.skills">{{skill}}</li>
+					</ul>
+			</article>
+			</div>
+			<div class="clear"></div>
+		</section>
+		
+		<section v-if="cv.education != null && cv.education.length > 0">
+			<div class="sectionTitle">
+				<h1>{{i18n.education}}</h1>
+			</div>
+			
+			<div class="sectionContent">
+				<article v-for="ed in cv.education">
+					<h2>{{ed.institution}}</h2>
+					<p class="subDetails">{{ed.degree}}</p>
+					<p class="subDetails">{{ed.duration}}</p>
+					<p>{{ed.description}}</p>
+				</article>
+			</div>
+			<div class="clear"></div>
+		</section>
+		
+		<section v-if="cv.personalProjects != null && cv.personalProjects.length > 0" style="page-break-inside: avoid;">
+			<div class="sectionTitle">
+				<h1>{{i18n.personalProjects}}</h1>
+			</div>
+			
+			<div class="sectionContent">
+				<article v-for="p in cv.personalProjects">
+					<h2>{{p.name}}</h2>
+					<p v-html="p.description" style="margin-bottom:0;"></p>
+					<p v-if="p.repo || p.web">
+						<span v-if="p.repo"><i :class="p.repo.icon" aria-hidden="true"></i>&nbsp;
+							<a :href="p.repo.url" target="_blank" >
+								<span>{{p.repo.name?p.repo.name:p.repo.url.replace(/https?:\/\//,'')}}</span><span class="printOnly">{{p.repo.name?': '+p.repo.url.replace(/https?:\/\//,''):''}}</span>
+							</a>
+						</span>&nbsp;&nbsp;&nbsp;&nbsp;
+						<span v-if="p.web"><i :class="p.web.icon" aria-hidden="true"></i>&nbsp;
+							<a :href="p.web.url" target="_blank" >
+							<span>{{p.web.name?p.web.name:p.web.url.replace(/https?:\/\//,'')}}</span><span class="printOnly">{{p.web.name?': '+ p.web.url.replace(/https?:\/\//,'')  :''}}</span>
+							</a>
+						</span>
+					</p>
+				</article>
+			</div>
+			<div class="clear"></div>
+		</section>
+		
+		<section>
+			<div class="sectionTitle">
+				<h1>{{i18n.personalLinks}}</h1>
+			</div>
+			
+			<div class="sectionContent">
+				<ul class="keySkills noBullet" >
+					<li v-for="lnk in cv.links"><i :class="lnk.icon" aria-hidden="true"></i>&nbsp;
+						<a :href="lnk.url">
+							<span>{{lnk.name?lnk.name:lnk.url.replace(/https?:\/\//,'')}}</span>
+							<span class="printOnly">{{lnk.name?': '+lnk.url.replace(/https?:\/\//,''):''}}</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="clear"></div>
+		</section>
+
+		<section v-if="cv.languages && cv.languages.length > 0">
+			<div class="sectionTitle">
+				<h1>{{i18n.languages}}</h1>
+			</div>
+			
+			<div class="sectionContent">
+				<article>
+					<ul class="keySkills">
+						<li v-for="lang in cv.languages">{{lang.name}} ({{lang.level}})</li>
+					</ul>
+			</article>
+			</div>
+			<div class="clear"></div>
+		</section>
+
+		<section v-if="cv.interests && cv.interests.length > 0">
+			<div class="sectionTitle">
+				<h1>{{i18n.interests}}</h1>
+			</div>
+			
+			<div class="sectionContent">
+				<article>
+					<ul class="keySkills">
+						<li v-for="int in cv.interests">{{int.name}}</li>
+					</ul>
+			</article>
+			</div>
+			<div class="clear"></div>
+		</section>
+
+	</div>
+</div>
+<script src="index.js" type="module"></script>
+</body>
+</html>
