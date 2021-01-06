@@ -73,6 +73,18 @@ const cv_es = {
                 icon: 'fas fa-code-branch'
             },
             web: null
+        },
+        { name: 'Este CV', description: 'Este CV, desarrollado con Vue y Typescript, para ver una versión actualizada vea el link abajo de éste párrafo', duration: '2020 - A la fecha',
+            repo: {
+                name: 'Github',
+                url: 'https://github.com/frank-orellana/mycv/',
+                icon: 'fab fa-github'
+            },
+            web: {
+                name: 'My CV',
+                url: 'https://tritium.cl/cv/',
+                icon: 'fas fa-globe'
+            }
         }
     ],
     links: [
@@ -167,6 +179,18 @@ const cv_en = {
                 icon: 'fas fa-code-branch'
             },
             web: null
+        },
+        { name: 'This CV', description: 'This CV, developed with Vue and Typescript, to see an updated version click the link below', duration: '2020 - Current',
+            repo: {
+                name: 'Github',
+                url: 'https://github.com/frank-orellana/mycv/',
+                icon: 'fab fa-github'
+            },
+            web: {
+                name: 'My CV',
+                url: 'https://tritium.cl/cv/',
+                icon: 'fas fa-globe'
+            }
         }
     ],
     links: [
