@@ -1,6 +1,6 @@
 import * as vue from './js/vue.js';
 import _I18N from './js/i18n.js';
-import { cv_es, cv_en, cv_fs_es } from './js/cv.js';
+import { cv_es, cv_en, cv_fs_es, cv_fs_en } from './js/cv.js';
 
 _I18N.add('es', {
 	keySkills: 'Key Skills',
@@ -41,7 +41,10 @@ vue.createApp({
 					default: cv.value = cv_es;
 				}
 			}else{
-				cv.value = cv_en
+				switch(cv_name){
+					case 'fs': cv.value = cv_fs_en; break;
+					default: cv.value = cv_en;
+				}
 			}
 		}
 

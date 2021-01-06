@@ -85,7 +85,7 @@ const cv_es = {
     interests: [
         { name: 'IA, Machine Learning' },
         { name: 'DataScience' },
-        { name: 'Traveling' }
+        { name: 'Viajar' }
     ],
     languages: [
         { name: 'Español', level: 'Nativo' },
@@ -173,19 +173,46 @@ const cv_en = {
         { name: 'Linkedin', url: 'https://bit.ly/linkedin-frank', icon: 'fab fa-linkedin-in' },
         { name: 'Github', url: 'https://bit.ly/github-frank', icon: 'fab fa-github' },
         { name: 'StackOverflow', url: 'https://bit.ly/so-frank', icon: 'fab fa-stack-overflow' }
+    ],
+    interests: [
+        { name: 'Artificial Intellicenge' },
+        { name: 'Machine Learning' },
+        { name: 'DataScience' },
+        { name: 'Traveling' }
+    ],
+    languages: [
+        { name: 'Spanish', level: 'Native' },
+        { name: 'English', level: 'Advanced/Conversational' },
+        { name: 'French', level: 'Basic' },
     ]
 };
 // FULLSTACK CV
+// FS ES
 const cv_fs_es = JSON.parse(JSON.stringify(cv_es));
-cv_fs_es.profile = '<p>Desarrollador FullStack con mas de 5 años de experiencia con Javascript/Typescript, NodeJs, Express, VueJs, Vanilla Js (ES6+), Java (Spring/SpringBoot/Thymeleaf), Bases de datos relacionales (Oracle, MSSqlServer, MariaDB/MySQL, etc).</p>' +
+cv_fs_es.profile = '<p>Desarrollador FullStack con mas de 5 años de experiencia con Javascript/Typescript, \
+NodeJs, Express, VueJs, Vanilla Js (ES6+), Java (Spring/SpringBoot/Thymeleaf), \
+Bases de datos relacionales (Oracle, MSSqlServer, MariaDB/MySQL, etc).</p>' +
     '<p>Con mas de 10 años de experiencia experiencia en desarrollo, implementación, análisis ' +
     'y liderazgo técnico en proyectos de diversas áreas de negocio ' +
     'trabajando también con múltiples tecnologías en todas las capas de aplicación, tales como \
  Java EE (JSP, JSF, JPA/Hibernate, etc.), Oracle PL-SQL, MSSQL T-SQL, entre otros. ' +
     'Habiendo realizado muchos proyectos en países como Argentina, ' +
-    'México, Chile, El Salvador entre otros, en dichos ambientes.</p><p>' +
+    'México, Chile, El Salvador entre otros, con dichas tecnologías.</p><p>' +
     'Con experiencia principalmente en el área de desarrollo, así como ' +
     'también en el liderazgo técnico de proyectos, análisis funcional, ' +
     'capacitación y trato con usuarios.</p>';
-cv_fs_es.skills = ['Javascript/Typescript', 'NodeJS', 'Express', 'HTML/CSS', 'JQuery/Bootstrap', 'REST, SOAP', 'Java', 'SQL, PL/SQL', 'Spring Framework', 'Python', 'Oracle, SQL Server, etc.', 'Git', 'NoSQL, TypeORM', 'TDD/Mocha/Chai', 'ESLint/TSLint/Prettier'];
-export { cv_es, cv_en, cv_fs_es };
+cv_fs_es.skills = ['Javascript/Typescript', 'Vue, React', 'NodeJS', 'Express', 'HTML/CSS', 'JQuery/Bootstrap', 'REST, SOAP', 'Java', 'SQL, PL/SQL', 'Spring Framework', 'Python', 'Oracle, SQL Server, etc.', 'Git', 'NoSQL, TypeORM', 'TDD/Jest/Mocha/Chai', 'ESLint/TSLint/Prettier'];
+//FS EN
+const cv_fs_en = JSON.parse(JSON.stringify(cv_en));
+cv_fs_en.skills = cv_fs_es.skills;
+cv_fs_en.profile = '<p>FullStack Developer with more than 5 years of experience with <b>Javascript/Typescript</b>, \
+	NodeJS, Express, VueJS, Vanilla Js (ES6+), Java (Spring/SpringBoot/Thymeleaf), \
+	Relational databases (Oracle, MSSqlServer, MariaDB/MySQL, etc).</p>\
+	<p> with more than 10 years of project implementation, development, analysis \
+	and leadership experience. Working with several technologies, on all application layers, including\
+	Java EE (JSF, JPA/Hibernate, JSP, SpringFramework, etc),\
+	Oracle PL-Sql, SQL Server T-Sql, Among others \
+	with experience working for many projects in El Salvador and abroad, mainly in Chile, Argentina and Mexico.<br><br>\
+	Development oriented mainly, but also with abilities as tech lead, functional analisys,\
+	user and technical training. ';
+export { cv_es, cv_en, cv_fs_es, cv_fs_en };
