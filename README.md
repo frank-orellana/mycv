@@ -1,9 +1,10 @@
 # My CV
 
-Just My CV, developed with Vue
+Just My CV, developed with Vue and Typescript, you can see it [here](https://tritium.cl/cv/)
 
-
-# Compile and watch
+## Scripts
+Just some things so I don't forget how to update and run this
+### Compile and watch
 ```js
 npm run dev
 ```
