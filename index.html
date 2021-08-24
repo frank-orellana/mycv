@@ -117,6 +117,27 @@
 			</div>
 			<div class="clear"></div>
 		</section>
+
+		<section v-if="cv.education != null && cv.education.length > 0">
+			<div class="sectionTitle">
+				<h1>{{i18n.courses}}</h1>
+			</div>
+			
+			<div class="sectionContent">
+				<article v-for="ed in cv.courses">
+					<h2>{{ed.institution}}</h2>
+					<p class="subDetails"></p>{{ed.degree}}</p>
+					<p class="subDetails">{{ed.duration}}</p>
+					<p v-html='ed.description'></p>
+					<p v-if='ed.link'>
+						<i :class="ed.link.icon" aria-hidden="true"></i>&nbsp;
+						<a :href="ed.link.url" class="screenOnly">link</a>
+						<span class="printOnly">{{ed.link.url}}</span>
+					</p>
+				</article>
+			</div>
+			<div class="clear"></div>
+		</section>
 		
 		<section v-if="cv.personalProjects != null && cv.personalProjects.length > 0" style="page-break-inside: avoid;">
 			<div class="sectionTitle">

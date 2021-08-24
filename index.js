@@ -1,6 +1,7 @@
 import * as vue from './js/vue.js';
 import _I18N from './js/i18n.js';
 import { cv_es, cv_en, cv_fs_es, cv_fs_en } from './js/cv.js';
+import { cv_fs_arg, cv_fs_arg_en } from './js/cv_arg.js';
 _I18N.add('es', {
     keySkills: 'Key Skills',
     workExperience: 'Experiencia Laboral',
@@ -10,7 +11,8 @@ _I18N.add('es', {
     personalProjects: 'Proyectos personales',
     personalLinks: 'Links Personales',
     languages: 'Idiomas',
-    interests: 'Intereses'
+    interests: 'Intereses',
+    courses: 'Cursos/Otra educación'
 });
 _I18N.add('en', {
     keySkills: 'Key Skills',
@@ -21,7 +23,8 @@ _I18N.add('en', {
     personalProjects: 'Personal Projects',
     personalLinks: 'Personal Links',
     languages: 'Languages',
-    interests: 'Interests'
+    interests: 'Interests',
+    courses: 'Courses/Other Education'
 });
 vue.createApp({
     setup(props) {
@@ -36,6 +39,9 @@ vue.createApp({
                     case 'fs':
                         cv.value = cv_fs_es;
                         break;
+                    case 'fs_arg':
+                        cv.value = cv_fs_arg;
+                        break;
                     default: cv.value = cv_es;
                 }
             }
@@ -43,6 +49,9 @@ vue.createApp({
                 switch (cv_name) {
                     case 'fs':
                         cv.value = cv_fs_en;
+                        break;
+                    case 'fs_arg':
+                        cv.value = cv_fs_arg_en;
                         break;
                     default: cv.value = cv_en;
                 }
@@ -63,6 +72,13 @@ vue.createApp({
             i18n.value = I18N.msg;
             selectCV();
         }
+        vue.onMounted(() => {
+            const urlParams = new URLSearchParams(window.location.search);
+            const lang = urlParams.get('lang');
+            console.log('lang:', lang);
+            if (lang != null)
+                changeLang(lang);
+        });
         return { testMethod, cv, i18n, changeLang, selectCV };
     }
 }).mount('#cv');

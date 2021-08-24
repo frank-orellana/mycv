@@ -267,6 +267,10 @@ section {
 		}
 		
 		html, body {background: darkblue;}
+
+		section {
+			page-break-inside: avoid;
+		}
 }
 
 @-webkit-keyframes reset {

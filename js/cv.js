@@ -11,7 +11,8 @@ const cv_es = {
         'también en el liderazgo técnico de proyectos, análisis funcional, ' +
         'capacitación y trato con usuarios.</p>',
     experience: [
-        { position: 'Desarrollador Senior', company: 'TRITIUM', start: 'Octubre 2014', end: 'Actualidad', country: 'Chile',
+        {
+            position: 'Desarrollador Senior', company: 'TRITIUM', start: 'Octubre 2014', end: 'Actualidad', country: 'Chile',
             description: "Partner y Consultor, dedicado principalmente al apoyo a clientes en sus sistemas de Recursos humanos y otros, especializándome sobre todo en los sistemas Meta4 Peoplenet, Meta4 SelfService, Oracle Java y PL-SQL, R, entre otros, y en la integración de dichas tecnologías con otros sistemas de software y hardware.<br>" +
                 "Entre las actividades realizadas en proyectos en los que he participado se	encuentran:" +
                 "<ul><li>Implementación de software Meta4/PeopleNet, Nómina, AutoServicio y RRHH	(Evaluación, Selección, Capacitación, entre otros)</li>" +
@@ -20,11 +21,19 @@ const cv_es = {
                 "<li>Extracción, análisis y publicación de datos</li>" +
                 "<li>Actualización infraestructura</li>" +
                 "<li>Pruebas de Rendimiento (Stress Testing)</li>" +
-                "<li>Capacitaciones de usuarios y desarrolladores</li></ul>" },
-        { position: 'Desarrollador Senior', company: 'LEMA', start: 'Agosto 2013', end: 'Octubre 2014', country: 'Chile',
-            description: "Trabajando con diversos clientes en Chile como Consultor Sr. Meta4 PeopleNet, proporcionando soluciones para sus sistemas de Recursos Humanos, mejorando, migrando y actualizando sus instalaciones. Este puesto requería que trabajara con los clientes para decidir las mejores soluciones para sus ambientes y luego aplicar las mismas al sistema, desarrollando con PeopleNet LN4, Java, SQL, PL/SQL entre otros."
+                "<li>Capacitaciones de usuarios y desarrolladores</li></ul>"
         },
-        { position: 'Desarrollador Senior Java', company: 'Huenei (Destacado en Citibank)', start: 'Julio 2012', end: 'Julio 2013', country: 'Argentina',
+        {
+            position: 'Desarrollador Senior', company: 'LEMA', start: 'Agosto 2013', end: 'Octubre 2014', country: 'Chile',
+            description: "Trabajando con diversos clientes en Chile como Consultor Sr. Meta4 PeopleNet, proporcionando soluciones para sus sistemas de Recursos Humanos, mejorando, migrando y actualizando sus instalaciones. Este puesto requería que trabajara con los clientes para decidir las mejores soluciones para sus ambientes y luego aplicar las mismas al sistema, desarrollando con PeopleNet LN4, Java, SQL, PL/SQL entre otros.<br>" +
+                "Funciones principales:<br>" +
+                "<ul><li>Implementación de software Meta4/PeopleNet, Nómina, AutoServicio y RRHH</li>" +
+                "<li>Trato con clientes</li>" +
+                "<li>Control de proyectos</li>" +
+                "</ul>"
+        },
+        {
+            position: 'Desarrollador Senior Java', company: 'Huenei (Destacado en Citibank)', start: 'Julio 2012', end: 'Julio 2013', country: 'Argentina',
             description: "Trabajando en la integración de un sistema CRM global, como parte de un proyecto de estandarización que apuntaba a tener un sitema único corriendo en todos las oficinas del mundo. Trabajando con Java basado en tecnología de portales IBM.<br>" +
                 "Logros:<br>" +
                 "Ayudar a integrar el sistema CRM, y también haber ayudado a otros equipos a finalizar sus asignaciones."
@@ -35,7 +44,8 @@ const cv_es = {
     ],
     skills: ['Javascript/NodeJS/TS', 'Java', 'SQL', 'PL/SQL', 'Spring Framework', 'Python', 'FullStack Development', 'Oracle, SQL Server, etc.', 'Git'],
     personalProjects: [
-        { name: 'Mapas Covid El Salvador', description: 'Mapa y gráficos interactivos con detalle de casos Covid históricos, desarrollado con JS/TS, REST API, NodeJs, VueJs, Express, TypeORM, Charts.js ', duration: '2020 - Current',
+        {
+            name: 'Mapas Covid El Salvador', description: 'Mapa y gráficos interactivos con detalle de casos Covid históricos, desarrollado con JS/TS, REST API, NodeJs, VueJs, Express, TypeORM, Charts.js ', duration: '2020 - Current',
             repo: {
                 name: 'Github',
                 url: 'https://github.com/tritiumcl/covid-maps-sv',
@@ -47,7 +57,8 @@ const cv_es = {
                 icon: 'fas fa-globe'
             }
         },
-        { name: 'UglyLinks', description: 'Extensión web para chrome y firefox para marcar links que no se quieren seguir viendo. (Typescript, VueJs, Bootstrap, IndexedDB, Mocha/Chai).', duration: '2019',
+        {
+            name: 'UglyLinks', description: 'Extensión web para chrome y firefox para marcar links que no se quieren seguir viendo. (Typescript, VueJs, Bootstrap, IndexedDB, Mocha/Chai).', duration: '2019',
             repo: {
                 name: 'Github',
                 url: 'https://github.com/frank-orellana/UglyLinks',
@@ -55,7 +66,8 @@ const cv_es = {
             },
             web: null
         },
-        { name: 'Diff Viewer', description: 'Herramienta web para visualizar archivos .diff de la misma forma que se visualizan por ejemplo en github. (Typescript, VueJs).', duration: '2017 - Current',
+        {
+            name: 'Diff Viewer', description: 'Herramienta web para visualizar archivos .diff de la misma forma que se visualizan por ejemplo en github. (Typescript, VueJs).', duration: '2017 - Current',
             repo: {
                 name: 'Github',
                 url: 'https://github.com/frank-orellana/diff-viewer',
@@ -66,7 +78,8 @@ const cv_es = {
                 icon: 'fas fa-globe'
             }
         },
-        { name: 'Retailer.org', description: 'Herramienta POS orientada a pequeños comercios, que permite llevar control en tiempo real de inventario, ventas entre otros', duration: '2005 - 2006',
+        {
+            name: 'Retailer.org', description: 'Herramienta POS orientada a pequeños comercios, que permite llevar control en tiempo real de inventario, ventas entre otros', duration: '2005 - 2006',
             repo: {
                 name: 'SourceForge',
                 url: 'https://sourceforge.net/projects/retailerorg/',
@@ -74,7 +87,8 @@ const cv_es = {
             },
             web: null
         },
-        { name: 'Este CV', description: 'Este CV, desarrollado con Vue y Typescript, para ver una versión actualizada vea el link abajo de éste párrafo', duration: '2020 - A la fecha',
+        {
+            name: 'Este CV', description: 'Este CV, desarrollado con Vue y Typescript, para ver una versión actualizada vea el link abajo de éste párrafo', duration: '2020 - A la fecha',
             repo: {
                 name: 'Github',
                 url: 'https://github.com/frank-orellana/mycv/',
@@ -103,6 +117,19 @@ const cv_es = {
         { name: 'Español', level: 'Nativo' },
         { name: 'Ingles', level: 'Avanzado/Conversacional' },
         { name: 'Francés', level: 'Básico' },
+    ],
+    courses: [
+        {
+            institution: 'MITx MicroMasters Program',
+            name: 'Statistics and Data Science',
+            description: 'Currently coursing program.<br>\
+			From probability and statistics to data analysis and machine learning, master the skills needed to solve complex challenges with data.',
+            duration: '2021-Current (Est. 2022)',
+            link: {
+                url: 'https://micromasters.mit.edu/ds/',
+                icon: 'fas fa-globe'
+            }
+        }
     ]
 };
 const cv_en = {
@@ -117,7 +144,8 @@ const cv_en = {
 	Goal oriented and self-taught.<br><br>\
 	I am an Entrepreneur working for my own business.',
     experience: [
-        { position: 'Senior Developer', company: 'TRITIUM', start: 'October 2014', end: 'Current', country: 'Chile',
+        {
+            position: 'Senior Developer / Owner', company: 'TRITIUM', start: 'October 2014', end: 'Current', country: 'Chile',
             description: "Working for our customers with enterprise class HR software, especially with Meta4 Peoplenet, providing consulting services in different HR and tech areas.<br>" +
                 "Projects Responsibilities:" +
                 "<ul><li>Software implementation: Meta4/PeopleNet, Payroll, SelfService and HR (Personnel Evaluation, Selection, Training, among others)</li>" +
@@ -126,14 +154,21 @@ const cv_en = {
                 "<li>Data extraction, analysis and publication.</li>" +
                 "<li>Technological upgrades</li>" +
                 "<li>Stress Testing</li>" +
-                "<li>User and developer trainings</li></ul>" },
-        { position: 'Senior Developer', company: 'LEMA', start: 'August 2013', end: 'October 2014', country: 'Chile',
-            description: "Working for different clients in chile as a Sr. Meta4 PeopleNet consultant, providing solutions for their HR systems, improving, migrating and updating their installations. This job required me to work with clients to decide the best solutions for their environments and then applying that solution to the system, programming with PeopleNet LN4, Java, SQL among others."
+                "<li>User and developer trainings</li></ul>"
         },
-        { position: 'Senior Java Developer', company: 'Huenei (Working in Citibank)', start: 'July 2012', end: 'July 2013', country: 'Argentina',
-            description: "Working in the integration of a global CRM system, as part of a global standardization project which aims to have a same basic system running in all of the world offices. Working with Java based IBM Portals technology.<br>" +
+        {
+            position: 'Senior Developer', company: 'LEMA', start: 'August 2013', end: 'October 2014', country: 'Chile',
+            description: "Working for different clients in Chile as a Sr. Meta4 PeopleNet consultant, \
+				providing solutions for their HR systems, improving, migrating and updating their installations. \
+				This job required me to work with clients to decide the best solutions for their environments and \
+				then applying those solutions to the system. Developing with PeopleNet LN4, Java, SQL among others.<br>"
+        },
+        {
+            position: 'Senior Java Developer', company: 'Huenei (Working at Citibank)', start: 'July 2012', end: 'July 2013', country: 'Argentina',
+            description: "Working in the integration of a global CRM system, as part of a global standardization project which \
+				aimed to have the same basic system running in all of their offices around the world. Working with Java based IBM Portals technology.<br>" +
                 "Achievements:<br>" +
-                "Helped integrate CRM system, and also helped other teams to finish their assignments."
+                "Helped integrate CRM system, and also helped other teams to finalize their assignments."
         }
     ],
     education: [
@@ -141,7 +176,8 @@ const cv_en = {
     ],
     skills: ['Javascript/NodeJS/TS', 'Java', 'SQL', 'PL/SQL', 'Spring Framework', 'Python', 'FullStack Development', 'Oracle, SQL Server, etc.', 'Git'],
     personalProjects: [
-        { name: 'Covid Maps El Salvador', description: 'Covid maps that show how the disease confirmed cases have evolved over time and area in the country, developed with JS/TS, REST API, NodeJs, VueJS, Express, TypeORM, Charts.js ', duration: '2020 - Current',
+        {
+            name: 'Covid Maps El Salvador', description: 'Covid maps that show how the disease confirmed cases have evolved over time and area in the country, developed with JS/TS, REST API, NodeJs, VueJS, Express, TypeORM, Charts.js ', duration: '2020 - Current',
             repo: {
                 name: 'Github',
                 url: 'https://github.com/tritiumcl/covid-maps-sv',
@@ -153,7 +189,8 @@ const cv_en = {
                 icon: 'fas fa-globe'
             }
         },
-        { name: 'UglyLinks', description: 'Browser Extension to uglify links in websites to mark items you don\'t want to click anymore. (Typescript, VueJs, Bootstrap, IndexedDB).', duration: '2019',
+        {
+            name: 'UglyLinks', description: 'Browser Extension to uglify links in websites to mark items you don\'t want to click anymore. (Typescript, VueJs, Bootstrap, IndexedDB).', duration: '2019',
             repo: {
                 name: 'Github',
                 url: 'https://github.com/frank-orellana/UglyLinks',
@@ -161,7 +198,8 @@ const cv_en = {
             },
             web: null
         },
-        { name: 'Diff Viewer', description: 'Web Utility to visualize diff files as they are seen in github. (Typescript, VueJs).', duration: '2017 - Current',
+        {
+            name: 'Diff Viewer', description: 'Web Utility to visualize diff files as they are seen in github. (Typescript, VueJs).', duration: '2017 - Current',
             repo: {
                 name: 'Github',
                 url: 'https://github.com/frank-orellana/diff-viewer',
@@ -172,7 +210,8 @@ const cv_en = {
                 icon: 'fas fa-globe'
             }
         },
-        { name: 'Retailer.org', description: 'Retailer.Org is a POS(Point Of Sale) program aimed specially to minimarket alike retailers, allowing them to have a real time control of their inventory, sales and other basic data.', duration: '2005 - 2006',
+        {
+            name: 'Retailer.org', description: 'Retailer.Org is a POS(Point Of Sale) program aimed specially to minimarket alike retailers, allowing them to have a real time control of their inventory, sales and other basic data.', duration: '2005 - 2006',
             repo: {
                 name: 'SourceForge',
                 url: 'https://sourceforge.net/projects/retailerorg/',
@@ -180,7 +219,8 @@ const cv_en = {
             },
             web: null
         },
-        { name: 'This CV', description: 'This CV, developed with Vue and Typescript, to see an updated version click the link below', duration: '2020 - Current',
+        {
+            name: 'This CV', description: 'This CV, developed with Vue and Typescript, to see an updated version click the link below', duration: '2020 - Current',
             repo: {
                 name: 'Github',
                 url: 'https://github.com/frank-orellana/mycv/',
@@ -193,11 +233,7 @@ const cv_en = {
             }
         }
     ],
-    links: [
-        { name: 'Linkedin', url: 'https://bit.ly/linkedin-frank', icon: 'fab fa-linkedin-in' },
-        { name: 'Github', url: 'https://bit.ly/github-frank', icon: 'fab fa-github' },
-        { name: 'StackOverflow', url: 'https://bit.ly/so-frank', icon: 'fab fa-stack-overflow' }
-    ],
+    links: cv_es.links,
     interests: [
         { name: 'Artificial Intellicenge' },
         { name: 'Machine Learning' },
@@ -208,13 +244,14 @@ const cv_en = {
         { name: 'Spanish', level: 'Native' },
         { name: 'English', level: 'Advanced/Conversational' },
         { name: 'French', level: 'Basic' },
-    ]
+    ],
+    courses: cv_es.courses
 };
 // FULLSTACK CV
 // FS ES
 const cv_fs_es = JSON.parse(JSON.stringify(cv_es));
 cv_fs_es.profile = '<p>Desarrollador FullStack con mas de 5 años de experiencia con Javascript/Typescript, \
-NodeJs, Express, VueJs, Vanilla Js (ES6+), Java (Spring/SpringBoot/Thymeleaf), \
+NodeJs, Express, VueJs, React, Vanilla Js (ES6+), Java (Spring/SpringBoot/Thymeleaf), \
 Bases de datos relacionales (Oracle, MSSqlServer, MariaDB/MySQL, etc).</p>' +
     '<p>Con mas de 10 años de experiencia experiencia en desarrollo, implementación, análisis ' +
     'y liderazgo técnico en proyectos de diversas áreas de negocio ' +
@@ -225,18 +262,43 @@ Bases de datos relacionales (Oracle, MSSqlServer, MariaDB/MySQL, etc).</p>' +
     'Con experiencia principalmente en el área de desarrollo, así como ' +
     'también en el liderazgo técnico de proyectos, análisis funcional, ' +
     'capacitación y trato con usuarios.</p>';
-cv_fs_es.skills = ['Javascript/Typescript', 'Vue, React', 'NodeJS', 'Express', 'HTML/CSS', 'JQuery/Bootstrap', 'REST, SOAP', 'Java', 'SQL, PL/SQL', 'Spring Framework', 'Python', 'Oracle, SQL Server, etc.', 'Git', 'NoSQL, TypeORM', 'TDD/Jest/Mocha/Chai', 'ESLint/TSLint/Prettier'];
+cv_fs_es.skills = ['Javascript/Typescript', 'Vue, React', 'NodeJS', 'Express', 'HTML/CSS', 'JQuery/Bootstrap', 'REST, SOAP', 'Java', 'SQL, PL/SQL', 'Spring Framework', 'Python, R', 'Oracle, SQL Server, etc.', 'Git', 'NoSQL, TypeORM', 'TDD/Jest/Mocha/Chai', 'ESLint/TSLint/Prettier', 'Mockito', 'Sonarcube'];
 //FS EN
 const cv_fs_en = JSON.parse(JSON.stringify(cv_en));
 cv_fs_en.skills = cv_fs_es.skills;
-cv_fs_en.profile = '<p>FullStack Developer with more than 5 years of experience with <b>Javascript/Typescript</b>, \
-	NodeJS, Express, VueJS, Vanilla Js (ES6+), Java (Spring/SpringBoot/Thymeleaf), \
-	Relational databases (Oracle, MSSqlServer, MariaDB/MySQL, etc).</p>\
-	<p> with more than 10 years of project implementation, development, analysis \
-	and leadership experience. Working with several technologies, on all application layers, including\
-	Java EE (JSF, JPA/Hibernate, JSP, SpringFramework, etc),\
-	Oracle PL-Sql, SQL Server T-Sql, Among others \
-	with experience working for many projects in El Salvador and abroad, mainly in Chile, Argentina and Mexico.<br><br>\
-	Development oriented mainly, but also with abilities as tech lead, functional analisys,\
-	user and technical training. ';
+cv_fs_en.profile = '<p>FullStack Developer with more than 5 years of experience on <b>Javascript</b>, \
+	NodeJS, VueJS, React, Java, \
+	Relational databases, etc. Development oriented with abilities as tech lead, functional analysis,\
+	user and technical training.</p>\
+	<p>With more than 10 years of total experience in project implementation, development, analysis \
+	and leadership. Having worked with a range of technologies, on all application layers, including:\
+	\
+	<p><ul> \
+		<li> <span style="font-weight: bolder">Backend:</span>\
+			<ul>\
+				<li> Java (JSF, JPA/Hibernate, JSP, SpringBoot, etc)</li>\
+				<li> Node.js, Express, TypeORM</li>\
+				<li> Rest, SOAP services</li>\
+			</ul>\
+		</li>\
+		<li> <span style="font-weight: bolder">Frontend:</span>\
+			<ul>\
+				<li> HTML, JS, Typescript, CSS</li>\
+				<li> Vue, React, Cordova</li>\
+			</ul>\
+		</li>\
+		<li> <span style="font-weight: bolder">Data:</span>\
+			<ul>\
+				<li> Oracle PL-SQL, SQL Server T-SQL</li>\
+			</ul>\
+		</li>\
+		<li> <span style="font-weight: bolder">Others:</span>\
+			<ul>\
+				<li> Scrum</li>\
+				<li> CD/CI tools (Jenkins, Sonarcube, etc)</li>\
+			</ul>\
+		</li>\
+	</ul>\
+	</p>\
+	<p>Experience working for projects in El Salvador and abroad, mainly in Chile, Argentina and Mexico, as well as remotely with teams in locations such as USA, Canada, India and Singapore.<br><br>';
 export { cv_es, cv_en, cv_fs_es, cv_fs_en };
