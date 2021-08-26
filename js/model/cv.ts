@@ -59,4 +59,7 @@ export interface CV {
 	}[];
 
 	courses: Course[];
+
+	wsapLnk: string,
+	phone: string
 }

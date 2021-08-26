@@ -8,3 +8,5 @@ Just some things so I don't forget how to update and run this
 ```js
 npm run dev
 ```
+
+Then run `index.html` with live server extension

@@ -1,8 +1,8 @@
 import { inheritCV } from "./tools/tools.js";
-import { cv_fs_en, cv_fs_es } from "./cv.js";
+import { cv_en, cv_fs_es } from "./cv.js";
 const cv_fs_arg = inheritCV(cv_fs_es);
 cv_fs_arg.experience[1].description += 'test';
-const cv_fs_arg_en = inheritCV(cv_fs_en);
+const cv_fs_arg_en = inheritCV(cv_en);
 cv_fs_arg_en.experience[0].description += "Achievements:<br>" +
     "Helped clients to succesfully implement their projects of HR systems, as well as supported them \
 	to keep their systems running, adapting and connecting to their environments and infrastructure.";

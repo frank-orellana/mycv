@@ -23,7 +23,7 @@
 	<div class="mainDetails">
 
 		<div id="headshot" class="quickFade">
-			<img src="./img/headshot.png" alt="Frank Orellana" />
+			<img src="./img/headshot.png" alt="Frank Orellana" v-if="!I18N.currentLang.startsWith('en')" />
 		</div>
 		
 		<div id="name">
@@ -33,11 +33,12 @@
 		
 		<div id="contactDetails" class="quickFade delayFour">
 			<ul>
-				<li><i class="fas fa-envelope" aria-hidden="true"></i>: <a href="mailto:frank.orellana@tritium.cl" target="_blank">frank.orellana@tritium.cl</a></li>
-				<li><i class="fab fa-linkedin-in" aria-hidden="true"></i>: <a href="https://bit.ly/linkedin-frank">bit.ly/linkedin-frank</a></li>
-				<li><i class="fas fa-globe" aria-hidden="true"></i>: <a href="https://www.tritium.cl">www.tritium.cl</a></li>
-				<li><i class="fa fa-whatsapp" aria-hidden="true"></i>: <a href="https://wa.link/y9fi9c">+56951377594</a></li>
-				<li><i class="fas fa-phone"></i>: <a href="tel:0056228979708">+56228979708</a></li>
+				<li><i class="fas fa-envelope" aria-hidden="true"></i>: <a href="mailto:frank.orellana@pm.me" target="_blank">frank.orellana@pm.me</a></li>
+				<li><i class="fab fa-linkedin-in" aria-hidden="true"></i>: <a href="https://bit.ly/linkedin-frank" target="_blank">bit.ly/linkedin-frank</a></li>
+				<li><i class="fas fa-globe" aria-hidden="true"></i>: <a href="https://www.tritium.cl" target="_blank">www.tritium.cl</a></li>
+				<li><i class="fa fa-whatsapp" aria-hidden="true"></i>: <a href="https://wa.link/y9fi9c" target="_blank">{{cv.phone}}</a></li>
+				<li v-if="!I18N.currentLang.startsWith('en')"><i class="fas fa-phone"></i>: <a href="tel:0056228979708">+56228979708</a></li>
+				<li v-else><i class="fas fa-map-marker-alt"></i>: <a href="https://bit.ly/3Bch9ws" target="_blank">Boston, MA</a></li>
 			</ul>
 
 			<div class="langIcons">
@@ -87,7 +88,7 @@
 		</section>
 		
 		
-		<section>
+		<section class="no-break">
 			<div class="sectionTitle">
 				<h1>{{i18n.keySkills}}</h1>
 			</div>
@@ -171,7 +172,7 @@
 			</div>
 			
 			<div class="sectionContent">
-				<ul class="keySkills noBullet" >
+				<ul class="keySkills noBullet personal-links" >
 					<li v-for="lnk in cv.links"><i :class="lnk.icon" aria-hidden="true"></i>&nbsp;
 						<a :href="lnk.url">
 							<span>{{lnk.name?lnk.name:lnk.url.replace(/https?:\/\//,'')}}</span>
@@ -190,8 +191,8 @@
 			
 			<div class="sectionContent">
 				<article>
-					<ul class="keySkills">
-						<li v-for="lang in cv.languages">{{lang.name}} ({{lang.level}})</li>
+					<ul class="keySkills noBullet">
+						<li v-for="lang in cv.languages" class="no-wrap">{{lang.name}}&nbsp;({{lang.level}})</li>
 					</ul>
 			</article>
 			</div>

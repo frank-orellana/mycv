@@ -1,6 +1,6 @@
 import * as vue from './js/vue.js';
 import _I18N from './js/i18n.js';
-import { cv_es, cv_en, cv_fs_es, cv_fs_en } from './js/cv.js';
+import { cv_es, cv_en, cv_fs_es } from './js/cv.js';
 import { cv_fs_arg, cv_fs_arg_en } from './js/cv_arg.js';
 
 _I18N.add('es', {
@@ -47,7 +47,7 @@ vue.createApp({
 				}
 			}else{
 				switch(cv_name){
-					case 'fs': cv.value = cv_fs_en; break;
+					//case 'fs': cv.value = cv_fs_en; break;
 					case 'fs_arg': cv.value = cv_fs_arg_en; break;
 					default: cv.value = cv_en;
 				}
@@ -80,6 +80,6 @@ vue.createApp({
 				changeLang(lang);
 		})
 
-		return { testMethod, cv, i18n, changeLang, selectCV }
+		return { testMethod, cv, i18n, I18N, changeLang, selectCV }
 	}
 }).mount('#cv')

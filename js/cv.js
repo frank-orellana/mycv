@@ -12,6 +12,14 @@ const cv_es = {
         'capacitación y trato con usuarios.</p>',
     experience: [
         {
+            position: 'Senior Software Developer', company: 'AUSTIN SOFTWARE', start: 'Abril 2021', end: 'actual', country: 'Chile/USA',
+            description: 'Trabajando para una StartUp basada en Austin, TX, con una variedad de tecnologías, incluídas ReactJS, Material-UI, Html5, ES6+, Python'
+        },
+        {
+            position: 'Solutions Analyst', company: 'EVERIS', start: 'Noviembre 2020', end: 'Abril 2021', country: 'Chile',
+            description: 'Desarrolladr Senior Full-Stack en everis, destacado en Scotiabank Chile, trabajando con tecnologías como ReactJS, SpringBoot entre otras.'
+        },
+        {
             position: 'Desarrollador Senior', company: 'TRITIUM', start: 'Octubre 2014', end: 'Actualidad', country: 'Chile',
             description: "Partner y Consultor, dedicado principalmente al apoyo a clientes en sus sistemas de Recursos humanos y otros, especializándome sobre todo en los sistemas Meta4 Peoplenet, Meta4 SelfService, Oracle Java y PL-SQL, R, entre otros, y en la integración de dichas tecnologías con otros sistemas de software y hardware.<br>" +
                 "Entre las actividades realizadas en proyectos en los que he participado se	encuentran:" +
@@ -130,20 +138,55 @@ const cv_es = {
                 icon: 'fas fa-globe'
             }
         }
-    ]
+    ],
+    wsapLnk: 'https://wa.link/y9fi9c',
+    phone: '+56951377594'
 };
 const cv_en = {
-    profile: 'Senior Developer with more than 8 years of experience with Java, Javascript and Oracle PL/SQL, and more than 10 years of experience with Meta4 PeopleNet. With project implementation, development, analysis and leadership experience. Working with several technologies, including:\
-	<p><ul><li>\
-	Java EE (JSF, JPA/Hibernate, JSP, SpringFramework, etc)</li><li>\
-	Meta4 PeopleNet (RichClient, SelfService)</li><li>\
-	Oracle PL-Sql, SQL Server T-Sql</li><li>\
-	Web Development</li><li>\
-	Node.js</li></ul></p>\
-	Among others, with experience working for many projects in El Salvador and abroad, mainly in Chile, Argentina and Mexico.<br><br>\
-	Goal oriented and self-taught.<br><br>\
-	I am an Entrepreneur working for my own business.',
+    profile: '<p>Senior FullStack Developer with 10+ years of experience, having worked with technologies such as <b>Javascript</b>, \
+	NodeJS, VueJS, React, Java, \
+	Relational databases, etc.  I\'m mainly Development oriented, but also have abilities and experience as tech lead, functional analysis,\
+	user and technical training.</p>\
+	<p>With more than 15 years of total experience in project implementation, development, analysis \
+	and leadership. Having worked with a range of technologies, on all application layers, including:\
+	\
+	<p><ul> \
+		<li> <span style="font-weight: bolder">Backend:</span>\
+			<ul>\
+				<li> Java (SpringBoot, JPA/Hibernate, JSF, JSP, etc)</li>\
+				<li> Node.js, Express, TypeORM</li>\
+				<li> Rest, SOAP services</li>\
+			</ul>\
+		</li>\
+		<li> <span style="font-weight: bolder">Frontend:</span>\
+			<ul>\
+				<li> HTML, JS, Typescript, CSS</li>\
+				<li> Vue, React, Cordova</li>\
+			</ul>\
+		</li>\
+		<li> <span style="font-weight: bolder">Data:</span>\
+			<ul>\
+				<li> Oracle PL-SQL, SQL Server T-SQL</li>\
+			</ul>\
+		</li>\
+		<li> <span style="font-weight: bolder">Others:</span>\
+			<ul>\
+				<li> Scrum</li>\
+				<li> CD/CI tools (Jenkins, Sonarcube, etc)</li>\
+			</ul>\
+		</li>\
+	</ul>\
+	</p>\
+	<p>Experience working for projects in El Salvador and abroad, mainly in Chile, Argentina and Mexico, as well as remotely with teams in locations such as USA, Canada, India and Singapore.',
     experience: [
+        {
+            position: 'Senior Software Developer', company: 'AUSTIN SOFTWARE', start: 'April 2021', end: 'current', country: 'Chile/USA',
+            description: 'Working for an Austin, TX based startup, with a variety of technologies, including ReactJS, Material-UI, Html5, ES6+, Python'
+        },
+        {
+            position: 'Solutions Analyst', company: 'EVERIS', start: 'November 2020', end: 'April 2021', country: 'Chile',
+            description: 'Senior Full-Stack developer at everis, working for Scotiabank Chile with technologies such as ReactJS, SpringBoot, Jenkins, Sonarcube among others, in a project driven with the scrum methodology'
+        },
         {
             position: 'Senior Developer / Owner', company: 'TRITIUM', start: 'October 2014', end: 'Current', country: 'Chile',
             description: "Working for our customers with enterprise class HR software, especially with Meta4 Peoplenet, providing consulting services in different HR and tech areas.<br>" +
@@ -156,25 +199,24 @@ const cv_en = {
                 "<li>Stress Testing</li>" +
                 "<li>User and developer trainings</li></ul>"
         },
-        {
-            position: 'Senior Developer', company: 'LEMA', start: 'August 2013', end: 'October 2014', country: 'Chile',
-            description: "Working for different clients in Chile as a Sr. Meta4 PeopleNet consultant, \
-				providing solutions for their HR systems, improving, migrating and updating their installations. \
-				This job required me to work with clients to decide the best solutions for their environments and \
-				then applying those solutions to the system. Developing with PeopleNet LN4, Java, SQL among others.<br>"
-        },
+        // {
+        // 	position: 'Senior Developer', company: 'LEMA', start: 'August 2013', end: 'October 2014', country: 'Chile',
+        // 	description: "Working for different clients in Chile as a Sr. Meta4 PeopleNet consultant, \
+        // 		providing solutions for their HR systems, improving, migrating and updating their installations. \
+        // 		This job required me to work with clients to decide the best solutions for their environments and \
+        // 		then applying those solutions to the system. Developing with PeopleNet LN4, Java, SQL among others.<br>"
+        // },
         {
             position: 'Senior Java Developer', company: 'Huenei (Working at Citibank)', start: 'July 2012', end: 'July 2013', country: 'Argentina',
             description: "Working in the integration of a global CRM system, as part of a global standardization project which \
 				aimed to have the same basic system running in all of their offices around the world. Working with Java based IBM Portals technology.<br>" +
-                "Achievements:<br>" +
-                "Helped integrate CRM system, and also helped other teams to finalize their assignments."
+                "Achievements: Helped integrate CRM system, and also helped other teams to finalize their assignments."
         }
     ],
     education: [
         { institution: "Universidad Centroamericana UCA (El Salvador)", degree: "Bachelor in Computer Science", description: "", duration: "2003 - 2008" }
     ],
-    skills: ['Javascript/NodeJS/TS', 'Java', 'SQL', 'PL/SQL', 'Spring Framework', 'Python', 'FullStack Development', 'Oracle, SQL Server, etc.', 'Git'],
+    skills: ['Javascript/Typescript', 'Vue, React', 'NodeJS', 'Express', 'HTML/CSS', 'JQuery/Bootstrap', 'REST, SOAP', 'Java', 'SQL, PL/SQL', 'Spring Framework', 'Python, R', 'Oracle, SQL Server, etc.', 'Git', 'NoSQL, TypeORM', 'TDD/Jest/Mocha/Chai', 'ESLint/TSLint/Prettier', 'Mockito', 'Sonarcube'],
     personalProjects: [
         {
             name: 'Covid Maps El Salvador', description: 'Covid maps that show how the disease confirmed cases have evolved over time and area in the country, developed with JS/TS, REST API, NodeJs, VueJS, Express, TypeORM, Charts.js ', duration: '2020 - Current',
@@ -245,7 +287,9 @@ const cv_en = {
         { name: 'English', level: 'Advanced/Conversational' },
         { name: 'French', level: 'Basic' },
     ],
-    courses: cv_es.courses
+    courses: cv_es.courses,
+    wsapLnk: 'https://wa.link/e79pkc',
+    phone: '(857)389-9796'
 };
 // FULLSTACK CV
 // FS ES
@@ -263,42 +307,4 @@ Bases de datos relacionales (Oracle, MSSqlServer, MariaDB/MySQL, etc).</p>' +
     'también en el liderazgo técnico de proyectos, análisis funcional, ' +
     'capacitación y trato con usuarios.</p>';
 cv_fs_es.skills = ['Javascript/Typescript', 'Vue, React', 'NodeJS', 'Express', 'HTML/CSS', 'JQuery/Bootstrap', 'REST, SOAP', 'Java', 'SQL, PL/SQL', 'Spring Framework', 'Python, R', 'Oracle, SQL Server, etc.', 'Git', 'NoSQL, TypeORM', 'TDD/Jest/Mocha/Chai', 'ESLint/TSLint/Prettier', 'Mockito', 'Sonarcube'];
-//FS EN
-const cv_fs_en = JSON.parse(JSON.stringify(cv_en));
-cv_fs_en.skills = cv_fs_es.skills;
-cv_fs_en.profile = '<p>FullStack Developer with more than 5 years of experience on <b>Javascript</b>, \
-	NodeJS, VueJS, React, Java, \
-	Relational databases, etc. Development oriented with abilities as tech lead, functional analysis,\
-	user and technical training.</p>\
-	<p>With more than 10 years of total experience in project implementation, development, analysis \
-	and leadership. Having worked with a range of technologies, on all application layers, including:\
-	\
-	<p><ul> \
-		<li> <span style="font-weight: bolder">Backend:</span>\
-			<ul>\
-				<li> Java (JSF, JPA/Hibernate, JSP, SpringBoot, etc)</li>\
-				<li> Node.js, Express, TypeORM</li>\
-				<li> Rest, SOAP services</li>\
-			</ul>\
-		</li>\
-		<li> <span style="font-weight: bolder">Frontend:</span>\
-			<ul>\
-				<li> HTML, JS, Typescript, CSS</li>\
-				<li> Vue, React, Cordova</li>\
-			</ul>\
-		</li>\
-		<li> <span style="font-weight: bolder">Data:</span>\
-			<ul>\
-				<li> Oracle PL-SQL, SQL Server T-SQL</li>\
-			</ul>\
-		</li>\
-		<li> <span style="font-weight: bolder">Others:</span>\
-			<ul>\
-				<li> Scrum</li>\
-				<li> CD/CI tools (Jenkins, Sonarcube, etc)</li>\
-			</ul>\
-		</li>\
-	</ul>\
-	</p>\
-	<p>Experience working for projects in El Salvador and abroad, mainly in Chile, Argentina and Mexico, as well as remotely with teams in locations such as USA, Canada, India and Singapore.<br><br>';
-export { cv_es, cv_en, cv_fs_es, cv_fs_en };
+export { cv_es, cv_en, cv_fs_es };
