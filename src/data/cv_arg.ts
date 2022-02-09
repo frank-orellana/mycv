@@ -1,4 +1,4 @@
-import { inheritCV } from "./tools/tools.js";
+import { inheritCV } from "../utils/tools.js";
 import { cv_en, cv_fs_es } from "./cv.js";
 
 const cv_fs_arg = inheritCV(cv_fs_es);

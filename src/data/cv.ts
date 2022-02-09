@@ -1,4 +1,4 @@
-import i18n from "./i18n.js";
+import i18n from "../utils/i18n";
 import { CV } from "./model/cv.js";
 
 const cv_es: CV = {

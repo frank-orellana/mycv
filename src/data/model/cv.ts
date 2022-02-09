@@ -10,6 +10,7 @@ export interface Course {
 	description: string;
 	duration: string;
 	link: WebLink;
+	degree?: string
 }
 
 export interface CV {

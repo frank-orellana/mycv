@@ -6,7 +6,12 @@ Just My CV, developed with Vue and Typescript, you can see it [here](https://tri
 Just some things so I don't forget how to update and run this
 ### Compile and watch
 ```js
-npm run dev
+pnpm dev
 ```
 
-Then run `index.html` with live server extension
+To build, run 
+```js
+pnpm build
+```
+
+Then run `dist/index.html` with live server extension
