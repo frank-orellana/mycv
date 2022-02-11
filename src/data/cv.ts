@@ -15,7 +15,11 @@ const cv_es: CV = {
 		'capacitación y trato con usuarios.</p>',
 	experience: [
 		{
-			position: 'Senior Software Developer', company: 'AUSTIN SOFTWARE', start: 'Abril 2021', end: 'actual', country: 'Chile/USA',
+			position: 'Senior Software Developer', company: 'Collabera Inc', start: 'Octubre 2021', end: 'actual', country: 'USA',
+			description: 'Trabajando por contrato para Wayfair Inc. con tecnologías como ReactJS, Html5, ES6+, Python'
+		},
+		{
+			position: 'Senior Software Developer', company: 'AUSTIN SOFTWARE', start: 'Abril 2021', end: 'Octubre 2021', country: 'Chile/USA',
 			description: 'Trabajando para una StartUp basada en Austin, TX, con una variedad de tecnologías, incluídas ReactJS, Material-UI, Html5, ES6+, Python'
 		},
 		{
@@ -185,7 +189,11 @@ const cv_en: CV = {
 	<p>Experience working for projects in El Salvador and abroad, mainly in Chile, Argentina and Mexico, as well as remotely with teams in locations such as USA, Canada, India and Singapore.',
 	experience: [
 		{
-			position: 'Senior Software Developer', company: 'AUSTIN SOFTWARE', start: 'April 2021', end: 'current', country: 'Chile/USA',
+			position: 'Senior Software Developer', company: 'COLLABERA', start: 'October 2021', end: 'current', country: 'USA',
+			description: 'Working as a contract for Wayfair Inc. with technologies such as ReactJS, Html5, ES6+, Python'
+		},
+		{
+			position: 'Senior Software Developer', company: 'AUSTIN SOFTWARE', start: 'April 2021', end: 'October 2021', country: 'Chile/USA',
 			description: 'Working for an Austin, TX based startup, with a variety of technologies, including ReactJS, Material-UI, Html5, ES6+, Python'
 		},
 		{
