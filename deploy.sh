@@ -1,5 +1,6 @@
+pnpm build
 git switch gh-pages
-git checkout migrate_to_vite -- dist/
+git checkout $1 -- dist/
 rm -rf docs/
 mkdir docs/
 mv dist/* docs/
