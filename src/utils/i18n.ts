@@ -27,6 +27,10 @@ export default class i18n {
 	}
 
 	static selectLang(plang?:string) {
+		if(typeof window === 'undefined'){
+			this.currentLang = 'en'
+			return
+		}
 		var lang: string = plang || window.navigator.languages[0];
 		console.log(lang);
 		if (i18n.langs[lang])
@@ -75,8 +79,8 @@ i18n.add(i18n.defaultLangName, {
 	name: 'Name',
 	process: 'Process',
 	add: 'Add',
-	edit: 'Editar',
-	modify: 'Modificar',
+	edit: 'Edit',
+	modify: 'Modify',
 	new: 'New',
 	update: 'Update',
 	deleted: 'Deleted',

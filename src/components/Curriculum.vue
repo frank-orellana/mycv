@@ -45,6 +45,10 @@ const I18N = _I18N;
 
 
 function selectCV() {
+	if(typeof window === 'undefined'){
+		store.cv = cv_en
+		return
+	}
 	const urlParams = new URLSearchParams(window.location.search);
 	const cv_name = urlParams.get('cv') || 'base';
 	console.log('name:', cv_name)
