@@ -134,6 +134,7 @@ section {
 	float: right;
 	width: 80%;
 	background-color: white;
+	padding-top: 4px;
 }
 
 .sectionContent p, .sectionContent li{
