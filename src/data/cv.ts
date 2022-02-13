@@ -190,7 +190,7 @@ const cv_en: CV = {
 	experience: [
 		{
 			position: 'Senior Software Developer', company: 'COLLABERA', start: 'October 2021', end: 'current', country: 'USA',
-			description: 'Working as a contract for Wayfair Inc. with technologies such as ReactJS, Html5, ES6+, Python'
+			description: 'Working as a contract for Wayfair Inc. with technologies such as ReactJS, GraphQL, Html5, ES6+, Python'
 		},
 		{
 			position: 'Senior Software Developer', company: 'AUSTIN SOFTWARE', start: 'April 2021', end: 'October 2021', country: 'Chile/USA',
@@ -229,7 +229,7 @@ const cv_en: CV = {
 	education: [
 		{ institution: "Universidad Centroamericana UCA (El Salvador)", degree: "Bachelor in Computer Science", description: "", duration: "2003 - 2008" }
 	],
-	skills: ['Javascript/Typescript', 'Vue, React', 'NodeJS', 'Express', 'HTML/CSS', 'JQuery/Bootstrap', 'REST, SOAP', 'Java', 'SQL, PL/SQL', 'Spring Framework', 'Python, R', 'Oracle, SQL Server, etc.', 'Git', 'NoSQL, TypeORM', 'TDD/Jest/Mocha/Chai', 'ESLint/TSLint/Prettier', 'Mockito', 'Sonarcube'],
+	skills: ['Javascript/Typescript', 'Vue, React', 'NodeJS', 'Express', 'HTML/CSS', 'JQuery/Bootstrap', 'REST, GraphQL, SOAP', 'Java', 'SQL, PL/SQL', 'Spring Framework', 'Python, R', 'Oracle, SQL Server, etc.', 'Git', 'NoSQL, TypeORM', 'TDD/Jest/Mocha/Chai', 'ESLint/TSLint/Prettier', 'Mockito', 'Sonarcube'],
 
 	personalProjects: [
 		{
@@ -291,7 +291,7 @@ const cv_en: CV = {
 	],
 	links: cv_es.links,
 	interests: [
-		{ name: 'Artificial Intellicenge' },
+		{ name: 'Artificial Intelligence' },
 		{ name: 'Machine Learning' },
 		{ name: 'DataScience' },
 		{ name: 'Traveling' }
