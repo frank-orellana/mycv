@@ -1,0 +1,113 @@
+{
+  "vite/modulepreload-polyfill": [
+    "assets/headshot.f8a4d12c.png"
+  ],
+  "src/data/cv.ts": [
+    "assets/headshot.f8a4d12c.png"
+  ],
+  "src/utils/tools.ts": [
+    "assets/headshot.f8a4d12c.png"
+  ],
+  "src/data/cv_arg.ts": [
+    "assets/headshot.f8a4d12c.png"
+  ],
+  "src/store.ts": [
+    "assets/headshot.f8a4d12c.png"
+  ],
+  "src/i18n/en.ts": [
+    "assets/headshot.f8a4d12c.png"
+  ],
+  "src/i18n/es.ts": [
+    "assets/headshot.f8a4d12c.png"
+  ],
+  "src/utils/i18n.ts": [
+    "assets/headshot.f8a4d12c.png"
+  ],
+  "src/i18n/index.ts": [
+    "assets/headshot.f8a4d12c.png"
+  ],
+  "src/assets/headshot.png": [
+    "assets/headshot.f8a4d12c.png"
+  ],
+  "src/assets/flags/24px-Spain_flag_icon.svg.png": [
+    "assets/headshot.f8a4d12c.png"
+  ],
+  "src/assets/flags/24px-United-states_flag_icon_round.svg.png": [
+    "assets/headshot.f8a4d12c.png"
+  ],
+  "src/components/header/ContactDetails.vue": [
+    "assets/headshot.f8a4d12c.png"
+  ],
+  "src/components/header/Header.vue": [
+    "assets/headshot.f8a4d12c.png"
+  ],
+  "src/components/mainArea/sections/Title.vue": [
+    "assets/headshot.f8a4d12c.png"
+  ],
+  "src/components/mainArea/sections/Experience.vue": [
+    "assets/headshot.f8a4d12c.png"
+  ],
+  "src/components/mainArea/sections/KeySkills.vue": [
+    "assets/headshot.f8a4d12c.png"
+  ],
+  "src/components/mainArea/sections/Education.vue": [
+    "assets/headshot.f8a4d12c.png"
+  ],
+  "src/components/mainArea/sections/Courses.vue": [
+    "assets/headshot.f8a4d12c.png"
+  ],
+  "src/components/mainArea/sections/PersonalProjects.vue": [
+    "assets/headshot.f8a4d12c.png"
+  ],
+  "src/components/mainArea/sections/PersonalLinks.vue": [
+    "assets/headshot.f8a4d12c.png"
+  ],
+  "src/components/mainArea/sections/Languages.vue": [
+    "assets/headshot.f8a4d12c.png"
+  ],
+  "src/components/mainArea/sections/Interests.vue": [
+    "assets/headshot.f8a4d12c.png"
+  ],
+  "src/components/mainArea/MainArea.vue": [
+    "assets/headshot.f8a4d12c.png"
+  ],
+  "src/components/Curriculum.vue": [
+    "assets/headshot.f8a4d12c.png"
+  ],
+  "src/App.vue": [
+    "assets/headshot.f8a4d12c.png"
+  ],
+  "src/main.ts": [
+    "assets/headshot.f8a4d12c.png"
+  ],
+  "index.html": [
+    "assets/headshot.f8a4d12c.png"
+  ],
+  "node_modules/.pnpm/@vue+shared@3.2.30/node_modules/@vue/shared/dist/shared.esm-bundler.js": [
+    "assets/vendor.719785dd.js"
+  ],
+  "node_modules/.pnpm/@vue+reactivity@3.2.30/node_modules/@vue/reactivity/dist/reactivity.esm-bundler.js": [
+    "assets/vendor.719785dd.js"
+  ],
+  "node_modules/.pnpm/@vue+runtime-core@3.2.30/node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js": [
+    "assets/vendor.719785dd.js"
+  ],
+  "node_modules/.pnpm/@vue+runtime-dom@3.2.30/node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js": [
+    "assets/vendor.719785dd.js"
+  ],
+  "node_modules/.pnpm/vue@3.2.30/node_modules/vue/dist/vue.runtime.esm-bundler.js": [
+    "assets/vendor.719785dd.js"
+  ],
+  "node_modules/.pnpm/@vueuse+head@0.7.5_vue@3.2.30/node_modules/@vueuse/head/dist/index.mjs": [
+    "assets/vendor.719785dd.js"
+  ],
+  "node_modules/.pnpm/vite-ssg@0.17.10_ec3053237bbb47002a1a4b40afdf3d23/node_modules/vite-ssg/dist/chunks/state.mjs": [
+    "assets/vendor.719785dd.js"
+  ],
+  "node_modules/.pnpm/vite-ssg@0.17.10_ec3053237bbb47002a1a4b40afdf3d23/node_modules/vite-ssg/dist/chunks/ClientOnly.mjs": [
+    "assets/vendor.719785dd.js"
+  ],
+  "node_modules/.pnpm/vite-ssg@0.17.10_ec3053237bbb47002a1a4b40afdf3d23/node_modules/vite-ssg/dist/client/single-page.mjs": [
+    "assets/vendor.719785dd.js"
+  ]
+}
