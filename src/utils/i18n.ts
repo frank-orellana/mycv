@@ -11,108 +11,86 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with DiffViewer.  If not, see <https://www.gnu.org/licenses/>. */
-export default class i18n {
+
+export interface Messages {
+	[x: string]: any
+}
+export class I18N<M extends Messages> {
 	static readonly defaultLangName = 'en';
-	static langs: any = {};
+	langs = new Map<string, M>();
 
-	static msg: any = {};
-	static currentLang: string;
+	readonly msg: M;
+	currentLang: string = I18N.defaultLangName;
+	_realCurrentLang: string = I18N.defaultLangName
 
-	static get defaultLang (){
-		return this.langs[this.defaultLangName]
-	}
-
-	static init(){
+	constructor(defaultMsgs: M) {
 		this.selectLang();
+		this.langs.set(I18N.defaultLangName, defaultMsgs)
+		this.msg = Object.assign({}, defaultMsgs)	
 	}
 
-	static selectLang(plang?:string) {
-		if(typeof window === 'undefined'){
-			this.currentLang = 'en'
+	get defaultLang() {
+		return this.langs.get(I18N.defaultLangName) as M
+	}
+
+	get realCurrentLang() {
+		return this._realCurrentLang
+	}
+	set realCurrentLang(newValue: string) {
+		this._realCurrentLang = newValue
+		const m = this.langs.get(newValue)
+		if (m)
+			Object.assign(this.msg, m)
+	}
+
+	selectLang(plang?: string) {
+		if (typeof window === 'undefined') {
+			this.currentLang = I18N.defaultLangName
 			return
 		}
 		var lang: string = plang || window.navigator.languages[0];
 		console.log(lang);
-		if (i18n.langs[lang])
-			i18n.msg = i18n.langs[lang];
-		else if (i18n.langs[lang.substr(0, 2)])
-			i18n.msg = i18n.langs[lang.substr(0, 2)];
+		if (this.langs.get(lang))
+			this.realCurrentLang = lang;
+		else if (this.langs.get(lang.substring(0, 2)))
+			this.realCurrentLang = lang.substring(0, 2);
 		else
-			i18n.msg = i18n.langs['en'];
+			this.realCurrentLang = I18N.defaultLangName;
 
 		this.currentLang = lang;
 	}
 
-	static add(lang:string,obj:Object) {
-		const langObj: string = i18n.langs[lang];
-		if(!langObj){
-			i18n.langs[lang] = {};
+	add(lang: string, obj: M) {
+		const langObj = this.langs.get(lang);
+		if (!langObj) {
+			this.langs.set(lang, obj);
+		} else {
+			Object.assign(langObj, obj)
 		}
-		for(let x in obj)
-			//@ts-ignore
-			langObj[x] = obj[x];
 	}
 
-	static getMessage(messageId:string):string|undefined{
-		if(!i18n.msg) return;
-		let res: string = i18n.msg[messageId];
+	addPartial(lang: string, obj: Partial<M>, fallbackLang?: string) {
+		const langObj = (fallbackLang ? this.langs.get(fallbackLang) : null) ?? this.langs.get(lang);
+		if (!langObj) {
+			this.langs.set(lang, Object.assign(this.defaultLang, obj));
+		} else {
+			Object.assign(langObj, obj)
+		}
+	}
 
-		if(!res) {
-			let errMsg: string = `I18N: message "${messageId}" not found in language ${i18n.currentLang}`;
-			if(i18n.currentLang != i18n.defaultLangName){
-				res = i18n.defaultLang[messageId];
-				errMsg += res?`, using default lang`:` nor in default lang`;
+	getMessage(messageId: keyof M): string | undefined {
+		if (!this.msg) return;
+		let res = this.msg[messageId];
+
+		if (!res) {
+			let errMsg: string = `I18N: message "${messageId}" not found in language ${this.currentLang}`;
+			if (this.currentLang != I18N.defaultLangName) {
+				res = this.defaultLang[messageId];
+				errMsg += res ? `, using default lang` : ` nor in default lang`;
 				console.warn(errMsg);
 			}
 		}
-		
+
 		return res;
 	}
 }
-
-// Adding default english translations
-i18n.langs[i18n.defaultLangName] = {}
-i18n.add(i18n.defaultLangName, {
-	close: 'Close',
-	open: 'Open',
-	goBack: 'Go back',
-	name: 'Name',
-	process: 'Process',
-	add: 'Add',
-	edit: 'Edit',
-	modify: 'Modify',
-	new: 'New',
-	update: 'Update',
-	deleted: 'Deleted',
-	save: 'Save',
-	about: 'About',
-	viewInGithub: 'View in Github',
-	inventory: 'Inventory',
-	products: 'Products',
-	settings: 'Settings',
-	reports: 'Reports',
-	total: 'Total',
-});
-
-i18n.langs.es = {
-	close: 'Cerrar',
-	open: 'Abrir',
-	goBack: 'Atrás',
-	name: 'Nombre',
-	process: 'Procesar',
-	add: 'Agregar',
-	edit: 'Editar',
-	modify: 'Modificar',
-	new: 'Nuevo',
-	update: 'Actualizar',
-	deleted: 'Eliminado',
-	save: 'Guardar',
-	about: 'Acerca de',
-	viewInGithub: 'Ver en Github',
-	inventory: 'Inventario',
-	products: 'Productos',
-	settings: 'Configuración',
-	reports: 'Reportes',
-}
-
-i18n.init();

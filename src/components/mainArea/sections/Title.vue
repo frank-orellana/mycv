@@ -2,7 +2,7 @@
   <section>
     <article>
       <div class="sectionTitle">
-        <h1>{{ store.i18n.profile }}</h1>
+        <h1>{{ msg.profile }}</h1>
       </div>
 
       <div class="sectionContent">
@@ -14,5 +14,8 @@
 </template>
 <script setup lang="ts">
 import { store } from '../../../store';
+import { i18n } from '../../../i18n';
+const msg = i18n.msg
+
 
 </script>

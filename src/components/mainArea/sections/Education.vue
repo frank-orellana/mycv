@@ -1,7 +1,7 @@
 <template>
   <section v-if="store.cv?.education != null && store.cv?.education.length > 0">
       <div class="sectionTitle">
-        <h1>{{ store.i18n.education }}</h1>
+        <h1>{{ msg.education }}</h1>
       </div>
 
       <div class="sectionContent">
@@ -18,5 +18,6 @@
 
 <script setup lang="ts">
 import { store } from '../../../store';
+import { msg } from '../../../i18n';
 
 </script>

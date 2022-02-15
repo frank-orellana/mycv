@@ -17,7 +17,7 @@
         <i class="fa fa-whatsapp" aria-hidden="true"></i>:
         <a href="https://wa.link/y9fi9c" target="_blank">{{ store.cv?.phone }}</a>
       </li>
-      <li v-if="I18N.currentLang.startsWith('en')">
+      <li v-if="i18n.currentLang?.startsWith('en')">
         <i class="fas fa-map-marker-alt"></i>:
         <a href="https://bit.ly/3Bch9ws" target="_blank">Boston, MA</a>
       </li>
@@ -40,13 +40,13 @@
         />
       </a>
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <i class="fas fa-print" onclick="window.print()"></i>
+      <i class="fas fa-print" onclick="window.print()" :title="msg.printMe"></i>
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
-import I18N from '../../utils/i18n';
 import { store } from '../../store';
+import { i18n, msg } from '../../i18n';
 
 </script>
