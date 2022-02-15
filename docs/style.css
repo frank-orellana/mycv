@@ -114,6 +114,7 @@ section {
 	border-top: 0;
 	padding: 0px 0 0;
 	background-color: darkblue;
+	padding: 10px 0 10px;
 }
 
 section:first-child {
@@ -121,13 +122,10 @@ section:first-child {
 	padding: 0 0 10px;
 }
 
-section {
-	padding: 20px 0 10px;
-}
-
 .sectionTitle {
 	float: left;
 	width: 20%;
+	padding-top: 4px;
 }
 
 .sectionContent {
@@ -199,12 +197,12 @@ section {
 }
 
 @media screen and (max-width: 601px) {
-	#cv {
+	#app {
 		width: 95%;
 		margin: 10px auto;
 		min-width: 280px;
 	}
-	
+
 	#headshot {
 		display: none;
 	}
@@ -237,10 +235,6 @@ section {
 		padding: 15px 15px;
 	}
 	
-	section {
-		padding: 15px 0 0;
-	}
-	
 	#mainArea {
 		padding: 0 25px;
 	}
@@ -268,13 +262,17 @@ section {
 }
 
 @media print {
-    #cv {
+    #app {
 				width: 100%;
 				margin: 0;
 				max-width: 100%;
 		}
 		
 		html, body {background: darkblue;}
+
+		section {
+			padding: 0;
+		}
 
 		.no-break {
 			page-break-inside: avoid;
