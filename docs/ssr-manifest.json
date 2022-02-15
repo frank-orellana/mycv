@@ -2,6 +2,30 @@
   "vite/modulepreload-polyfill": [
     "assets/headshot.f8a4d12c.png"
   ],
+  "src/data/cv.ts": [
+    "assets/headshot.f8a4d12c.png"
+  ],
+  "src/utils/tools.ts": [
+    "assets/headshot.f8a4d12c.png"
+  ],
+  "src/data/cv_arg.ts": [
+    "assets/headshot.f8a4d12c.png"
+  ],
+  "src/store.ts": [
+    "assets/headshot.f8a4d12c.png"
+  ],
+  "src/i18n/en.ts": [
+    "assets/headshot.f8a4d12c.png"
+  ],
+  "src/i18n/es.ts": [
+    "assets/headshot.f8a4d12c.png"
+  ],
+  "src/utils/i18n.ts": [
+    "assets/headshot.f8a4d12c.png"
+  ],
+  "src/i18n/index.ts": [
+    "assets/headshot.f8a4d12c.png"
+  ],
   "src/assets/headshot.png": [
     "assets/headshot.f8a4d12c.png"
   ],
@@ -11,25 +35,10 @@
   "src/assets/flags/24px-United-states_flag_icon_round.svg.png": [
     "assets/headshot.f8a4d12c.png"
   ],
-  "src/utils/i18n.ts": [
-    "assets/headshot.f8a4d12c.png"
-  ],
-  "src/store.ts": [
-    "assets/headshot.f8a4d12c.png"
-  ],
   "src/components/header/ContactDetails.vue": [
     "assets/headshot.f8a4d12c.png"
   ],
   "src/components/header/Header.vue": [
-    "assets/headshot.f8a4d12c.png"
-  ],
-  "src/data/cv.ts": [
-    "assets/headshot.f8a4d12c.png"
-  ],
-  "src/utils/tools.ts": [
-    "assets/headshot.f8a4d12c.png"
-  ],
-  "src/data/cv_arg.ts": [
     "assets/headshot.f8a4d12c.png"
   ],
   "src/components/mainArea/sections/Title.vue": [
