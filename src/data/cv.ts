@@ -1,4 +1,3 @@
-import i18n from "../utils/i18n";
 import { CV } from "./model/cv.js";
 
 const cv_es: CV = {
@@ -15,20 +14,20 @@ const cv_es: CV = {
 		'capacitación y trato con usuarios.</p>',
 	experience: [
 		{
-			position: 'Senior Software Developer', company: 'Collabera Inc', start: 'Octubre 2021', end: 'actual', country: 'USA',
-			description: 'Trabajando por contrato para Wayfair Inc. con tecnologías como ReactJS, Html5, ES6+, Python'
+			position: 'Senior Software Developer', company: 'COLLABERA Inc', start: 'Octubre 2021', end: 'actual', country: 'USA',
+			description: 'Trabajando por contrato para Wayfair Inc. con tecnologías como ReactJS, GraphQL, Html5, ES6+, Python'
 		},
 		{
 			position: 'Senior Software Developer', company: 'AUSTIN SOFTWARE', start: 'Abril 2021', end: 'Octubre 2021', country: 'Chile/USA',
-			description: 'Trabajando para una StartUp basada en Austin, TX, con una variedad de tecnologías, incluídas ReactJS, Material-UI, Html5, ES6+, Python'
+			description: 'Trabajando para una StartUp basada en Austin, TX, con una variedad de tecnologías, incluidas ReactJS, Material-UI, Html5, ES6+, Python'
 		},
 		{
 			position: 'Solutions Analyst', company: 'EVERIS', start: 'Noviembre 2020', end: 'Abril 2021', country: 'Chile',
-			description: 'Desarrolladr Senior Full-Stack en everis, destacado en Scotiabank Chile, trabajando con tecnologías como ReactJS, SpringBoot entre otras.'
+			description: 'Desarrollador Senior Full-Stack en Everis, destacado en Scotiabank Chile, trabajando con tecnologías como ReactJS, SpringBoot entre otras.'
 		},
 		{
 			position: 'Desarrollador Senior', company: 'TRITIUM', start: 'Octubre 2014', end: 'Actualidad', country: 'Chile',
-			description: "Partner y Consultor, dedicado principalmente al apoyo a clientes en sus sistemas de Recursos humanos y otros, especializándome sobre todo en los sistemas Meta4 Peoplenet, Meta4 SelfService, Oracle Java y PL-SQL, R, entre otros, y en la integración de dichas tecnologías con otros sistemas de software y hardware.<br>" +
+			description: "Partner y Consultor, dedicado principalmente al apoyo a clientes en sus sistemas de Recursos humanos y otros, especializándome sobre todo en los sistemas Meta4 PeopleNet, Meta4 SelfService, Oracle Java y PL-SQL, R, entre otros, y en la integración de dichas tecnologías con otros sistemas de software y hardware.<br>" +
 				"Entre las actividades realizadas en proyectos en los que he participado se	encuentran:" +
 				"<ul><li>Implementación de software Meta4/PeopleNet, Nómina, AutoServicio y RRHH	(Evaluación, Selección, Capacitación, entre otros)</li>" +
 				"<li>Optimización, mantenimiento y mejoras de procesos de nómina PeopleNet</li>" +
@@ -49,7 +48,7 @@ const cv_es: CV = {
 		},
 		{
 			position: 'Desarrollador Senior Java', company: 'Huenei (Destacado en Citibank)', start: 'Julio 2012', end: 'Julio 2013', country: 'Argentina',
-			description: "Trabajando en la integración de un sistema CRM global, como parte de un proyecto de estandarización que apuntaba a tener un sitema único corriendo en todos las oficinas del mundo. Trabajando con Java basado en tecnología de portales IBM.<br>" +
+			description: "Trabajando en la integración de un sistema CRM global, como parte de un proyecto de estandarización que apuntaba a tener un sistema único corriendo en todos las oficinas del mundo. Trabajando con Java basado en tecnología de portales IBM.<br>" +
 				"Logros:<br>" +
 				"Ayudar a integrar el sistema CRM, y también haber ayudado a otros equipos a finalizar sus asignaciones."
 		}
@@ -73,7 +72,7 @@ const cv_es: CV = {
 			}
 		},
 		{
-			name: 'UglyLinks', description: 'Extensión web para chrome y firefox para marcar links que no se quieren seguir viendo. (Typescript, VueJs, Bootstrap, IndexedDB, Mocha/Chai).', duration: '2019',
+			name: 'UglyLinks', description: 'Extensión web para Chrome y Firefox para marcar links que no se quieren seguir viendo. (Typescript, VueJs, Bootstrap, IndexedDB, Mocha/Chai).', duration: '2019',
 			repo: {
 				name: 'Github',
 				url: 'https://github.com/frank-orellana/UglyLinks',
@@ -186,7 +185,7 @@ const cv_en: CV = {
 		</li>\
 	</ul>\
 	</p>\
-	<p>Experience working for projects in El Salvador and abroad, mainly in Chile, Argentina and Mexico, as well as remotely with teams in locations such as USA, Canada, India and Singapore.',
+	<p>Experience working for projects in El Salvador and abroad, mainly in Chile, Argentina, Mexico and USA, as well as remotely with teams in locations such as USA, Canada, India and Singapore.',
 	experience: [
 		{
 			position: 'Senior Software Developer', company: 'COLLABERA', start: 'October 2021', end: 'current', country: 'USA',
@@ -198,11 +197,11 @@ const cv_en: CV = {
 		},
 		{
 			position: 'Solutions Analyst', company: 'EVERIS', start: 'November 2020', end: 'April 2021', country: 'Chile',
-			description: 'Senior Full-Stack developer at everis, working for Scotiabank Chile with technologies such as ReactJS, SpringBoot, Jenkins, Sonarcube among others, in a project driven with the scrum methodology'
+			description: 'Senior Full-Stack developer at Everis, working for Scotiabank Chile with technologies such as ReactJS, SpringBoot, Jenkins, Sonarcube among others, in a project driven with the scrum methodology'
 		},
 		{
 			position: 'Senior Developer / Owner', company: 'TRITIUM', start: 'October 2014', end: 'Current', country: 'Chile',
-			description: "Working for our customers with enterprise class HR software, especially with Meta4 Peoplenet, providing consulting services in different HR and tech areas.<br>" +
+			description: "Working for our customers with enterprise class HR software, especially with Meta4 PeopleNet, providing consulting services in different HR and tech areas.<br>" +
 				"Projects Responsibilities:" +
 				"<ul><li>Software implementation: Meta4/PeopleNet, Payroll, SelfService and HR (Personnel Evaluation, Selection, Training, among others)</li>" +
 				"<li>PeopleNet Payroll Performance Improvement, maintenance and customization</li>" +
@@ -267,7 +266,7 @@ const cv_en: CV = {
 			}
 		},
 		{
-			name: 'Retailer.org', description: 'Retailer.Org is a POS(Point Of Sale) program aimed specially to minimarket alike retailers, allowing them to have a real time control of their inventory, sales and other basic data.', duration: '2005 - 2006',
+			name: 'Retailer.org', description: 'Retailer.Org is a POS(Point Of Sale) program aimed specially to mini market alike retailers, allowing them to have a real time control of their inventory, sales and other basic data.', duration: '2005 - 2006',
 			repo: {
 				name: 'SourceForge',
 				url: 'https://sourceforge.net/projects/retailerorg/',
@@ -326,7 +325,7 @@ Bases de datos relacionales (Oracle, MSSqlServer, MariaDB/MySQL, etc).</p>'+
 	'también en el liderazgo técnico de proyectos, análisis funcional, ' +
 	'capacitación y trato con usuarios.</p>';
 
-cv_fs_es.skills = ['Javascript/Typescript', 'Vue, React', 'NodeJS', 'Express', 'HTML/CSS', 'JQuery/Bootstrap', 'REST, SOAP', 'Java', 'SQL, PL/SQL', 'Spring Framework', 'Python, R', 'Oracle, SQL Server, etc.', 'Git', 'NoSQL, TypeORM', 'TDD/Jest/Mocha/Chai', 'ESLint/TSLint/Prettier', 'Mockito', 'Sonarcube'];
+cv_fs_es.skills = ['Javascript/Typescript', 'Vue, React', 'NodeJS', 'Express', 'HTML/CSS', 'JQuery/Bootstrap', 'REST, GraphQL, SOAP', 'Java', 'SQL, PL/SQL', 'Spring Framework', 'Python, R', 'Oracle, SQL Server, etc.', 'Git', 'NoSQL, TypeORM', 'TDD/Jest/Mocha/Chai', 'ESLint/TSLint/Prettier', 'Mockito', 'Sonarcube'];
 
 
 export { cv_es, cv_en, cv_fs_es };
