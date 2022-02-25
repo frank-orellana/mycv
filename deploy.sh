@@ -1,6 +1,7 @@
 pnpm build
-git add .
+git add dist/.
 git commit -m "deploy"
+git stash
 
 git switch gh-pages
 git checkout $1 -- dist/
@@ -12,3 +13,4 @@ git commit -m "deploy"
 git push
 
 git switch $1
+git stash pop

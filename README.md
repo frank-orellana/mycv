@@ -14,4 +14,9 @@ To build, run
 pnpm build
 ```
 
+To deploy to github pages, run 
+```bash
+./deploy.sh
+```
+
 Then run `dist/index.html` with live server extension
