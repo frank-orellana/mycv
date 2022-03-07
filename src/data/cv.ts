@@ -110,7 +110,7 @@ const cv_es: CV = {
 			},
 			web: {
 				name: 'My CV',
-				url: 'https://tritium.cl/cv/',
+				url: 'https://cv.frank-orellana.com/',
 				icon: 'fas fa-globe'
 			}
 		}
@@ -284,7 +284,7 @@ const cv_en: CV = {
 			},
 			web: {
 				name: 'My CV',
-				url: 'https://tritium.cl/cv/',
+				url: 'https://cv.frank-orellana.com/',
 				icon: 'fas fa-globe'
 			}
 		}
