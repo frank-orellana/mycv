@@ -3,7 +3,7 @@
     <ul>
       <li>
         <i class="fas fa-envelope" aria-hidden="true"></i>:
-        <a href="mailto:frank.orellana@pm.me" target="_blank">frank.orellana@pm.me</a>
+        <a href="mailto:franklin99@gmail.com" target="_blank">franklin99@gmail.com</a>
       </li>
       <li>
         <i class="fab fa-linkedin-in" aria-hidden="true"></i>:

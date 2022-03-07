@@ -146,7 +146,7 @@ const cv_es: CV = {
 		}
 	],
 
-	wsapLnk: 'https://wa.link/y9fi9c',
+	wsapLnk: 'https://wa.me/56951377594',
 	phone: '+56951377594'
 }
 
@@ -163,13 +163,14 @@ const cv_en: CV = {
 			<ul>\
 				<li> Java (SpringBoot, JPA/Hibernate, JSF, JSP, etc)</li>\
 				<li> Node.js, Express, TypeORM</li>\
-				<li> Rest, SOAP services</li>\
+				<li> Rest API, SOAP services</li>\
 			</ul>\
 		</li>\
 		<li> <span style="font-weight: bolder">Frontend:</span>\
 			<ul>\
 				<li> HTML, JS, Typescript, CSS</li>\
 				<li> Vue, React, Cordova</li>\
+				<li> Rest, GraphQL</li>\
 			</ul>\
 		</li>\
 		<li> <span style="font-weight: bolder">Data:</span>\
@@ -301,7 +302,7 @@ const cv_en: CV = {
 		{ name: 'French', level: 'Basic' },
 	],
 	courses: cv_es.courses,
-	wsapLnk: 'https://wa.link/e79pkc',
+	wsapLnk: 'https://wa.me/18573899796',
 	phone: '(857)389-9796'
 }
 
