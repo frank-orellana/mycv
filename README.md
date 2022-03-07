@@ -16,7 +16,10 @@ pnpm build
 
 To deploy to github pages, run 
 ```bash
-./deploy.sh
+pnpm deploy
+
+# OR
+./deploy.sh main
 ```
 
 Then run `dist/index.html` with live server extension
