@@ -67,7 +67,7 @@ const cv_es: CV = {
 			},
 			web: {
 				name: 'Mapas Covid El Salvador',
-				url: 'http://bit.ly/covidmapssv',
+				url: 'https://bit.ly/covidmapssv',
 				icon: 'fas fa-globe'
 			}
 		},
@@ -241,7 +241,7 @@ const cv_en: CV = {
 			},
 			web: {
 				name: 'Covid Maps El Salvador',
-				url: 'http://bit.ly/covidmapssv',
+				url: 'https://bit.ly/covidmapssv',
 				icon: 'fas fa-globe'
 			}
 		},

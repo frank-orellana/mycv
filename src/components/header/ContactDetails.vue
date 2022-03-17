@@ -7,19 +7,19 @@
       </li>
       <li>
         <i class="fab fa-linkedin-in" aria-hidden="true"></i>:
-        <a href="https://bit.ly/linkedin-frank" target="_blank">bit.ly/linkedin-frank</a>
+        <a href="https://bit.ly/linkedin-frank" target="_blank" rel="noopener">bit.ly/linkedin-frank</a>
       </li>
       <li>
         <i class="fas fa-globe" aria-hidden="true"></i>:
-        <a href="https://www.tritium.cl" target="_blank">www.tritium.cl</a>
+        <a href="https://www.tritium.cl" target="_blank" rel="noopener">www.tritium.cl</a>
       </li>
       <li>
         <i class="fa fa-whatsapp" aria-hidden="true"></i>:
-        <a href="https://wa.link/y9fi9c" target="_blank">{{ store.cv?.phone }}</a>
+        <a :href="store.cv?.wsapLnk" target="_blank" rel="noopener">{{ store.cv?.phone }}</a>
       </li>
       <li v-if="i18n.currentLang?.startsWith('en')">
-        <i class="fas fa-map-marker-alt"></i>:
-        <a href="https://bit.ly/3Bch9ws" target="_blank">Boston, MA</a>
+        <i class="fas fa-map-marker-alt" aria-hidden="true"></i>:
+        <a href="https://bit.ly/3Bch9ws" target="_blank" rel="noopener">Boston, MA</a>
       </li>
     </ul>
 
@@ -40,7 +40,12 @@
         />
       </a>
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <i class="fas fa-print" onclick="window.print()" :title="msg.printMe"></i>
+      <i
+        class="fas fa-print"
+        onclick="window.print()"
+        :title="msg.printMe"
+        aria-hidden="true"
+      ></i>
     </div>
   </div>
 </template>

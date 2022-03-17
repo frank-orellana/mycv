@@ -7,7 +7,3 @@ import Curriculum from './components/Curriculum.vue';
 <template>
   <Curriculum/>
 </template>
-
-<style>
-
-</style>

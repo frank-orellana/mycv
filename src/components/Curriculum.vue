@@ -7,7 +7,7 @@
 </template>
 
 <script setup lang="ts">
-import { onMounted, ref } from "vue";
+import { onMounted } from "vue";
 import { cv_es, cv_en, cv_fs_es } from '../data/cv';
 import { cv_fs_arg, cv_fs_arg_en } from '../data/cv_arg';
 import { store } from '../store'
@@ -32,7 +32,7 @@ function selectCV() {
 		}
 	} else {
 		switch (cv_name) {
-			//case 'fs': cv.value = cv_fs_en; break;
+			case 'fs': store.cv = cv_en; break;
 			case 'fs_arg': store.cv = cv_fs_arg_en; break;
 			default: store.cv = cv_en;
 		}
@@ -60,6 +60,3 @@ onMounted(() => {
 		changeLang(lang);
 })
 </script>
-
-<style>
-</style>
