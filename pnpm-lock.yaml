@@ -3,6 +3,7 @@ lockfileVersion: 5.3
 specifiers:
   '@vitejs/plugin-vue': ^2.0.0
   '@vueuse/head': ^0.7.5
+  sonar-scanner: ^3.1.0
   typescript: ^4.4.4
   vite: ^2.7.2
   vite-ssg: ^0.17.10
@@ -15,6 +16,7 @@ dependencies:
 
 devDependencies:
   '@vitejs/plugin-vue': 2.1.0_vite@2.7.13+vue@3.2.30
+  sonar-scanner: 3.1.0
   typescript: 4.5.5
   vite: 2.7.13
   vite-ssg: 0.17.10_ec3053237bbb47002a1a4b40afdf3d23
@@ -1172,6 +1174,12 @@ packages:
     hasBin: true
     dependencies:
       lru-cache: 6.0.0
+    dev: true
+
+  /sonar-scanner/3.1.0:
+    resolution: {integrity: sha1-UcHBEB9UuYq8XYVlIJsdkjKXk0M=}
+    hasBin: true
+    requiresBuild: true
     dev: true
 
   /source-map-js/1.0.2:

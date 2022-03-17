@@ -23,3 +23,8 @@ pnpm deploy
 ```
 
 Then run `dist/index.html` with live server extension
+
+To run sonarqube
+```bash
+pnpx sonar-scanner -Dsonar.login=<token>
+```
