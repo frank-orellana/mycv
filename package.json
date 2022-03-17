@@ -6,7 +6,9 @@
     "dev": "vite",
     "build": "vite-ssg build",
     "preview": "vite preview",
-    "deploy": "./deploy.sh $(git branch --show-current)"
+    "deploy": "./deploy.sh $(git branch --show-current)",
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
   },
   "author": "",
   "license": "ISC",
@@ -16,10 +18,12 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^2.0.0",
+    "c8": "^7.11.0",
     "sonar-scanner": "^3.1.0",
     "typescript": "^4.4.4",
     "vite": "^2.7.2",
     "vite-ssg": "^0.17.10",
+    "vitest": "^0.7.0",
     "vue-tsc": "^0.29.8"
   }
 }
