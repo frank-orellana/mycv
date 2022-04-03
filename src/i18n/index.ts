@@ -1,7 +1,7 @@
 import { reactive } from 'vue'
 import { en } from "./en";
 import { es } from "./es";
-import { I18N } from '../utils/i18n';
+import { I18N } from 'simple-i18n-ts';
 
 const i18n = reactive(new I18N(en))
 i18n.add('es', es)
