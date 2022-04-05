@@ -2,6 +2,18 @@
   "vite/modulepreload-polyfill": [
     "assets/headshot.f8a4d12c.png"
   ],
+  "node_modules/.pnpm/@vue+shared@3.2.31/node_modules/@vue/shared/dist/shared.esm-bundler.js": [
+    "assets/headshot.f8a4d12c.png"
+  ],
+  "node_modules/.pnpm/@vue+reactivity@3.2.31/node_modules/@vue/reactivity/dist/reactivity.esm-bundler.js": [
+    "assets/headshot.f8a4d12c.png"
+  ],
+  "node_modules/.pnpm/@vue+runtime-core@3.2.31/node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js": [
+    "assets/headshot.f8a4d12c.png"
+  ],
+  "node_modules/.pnpm/@vue+runtime-dom@3.2.31/node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js": [
+    "assets/headshot.f8a4d12c.png"
+  ],
   "src/data/cv.ts": [
     "assets/headshot.f8a4d12c.png"
   ],
@@ -20,7 +32,7 @@
   "src/i18n/es.ts": [
     "assets/headshot.f8a4d12c.png"
   ],
-  "src/utils/i18n.ts": [
+  "node_modules/.pnpm/simple-i18n-ts@0.0.2/node_modules/simple-i18n-ts/dist/i18n.js": [
     "assets/headshot.f8a4d12c.png"
   ],
   "src/i18n/index.ts": [
@@ -77,37 +89,22 @@
   "src/App.vue": [
     "assets/headshot.f8a4d12c.png"
   ],
+  "node_modules/.pnpm/@vueuse+head@0.7.5_vue@3.2.31/node_modules/@vueuse/head/dist/index.mjs": [
+    "assets/headshot.f8a4d12c.png"
+  ],
+  "node_modules/.pnpm/vite-ssg@0.17.11_c19e3087c51711bc3c5b039635296cb2/node_modules/vite-ssg/dist/chunks/state.mjs": [
+    "assets/headshot.f8a4d12c.png"
+  ],
+  "node_modules/.pnpm/vite-ssg@0.17.11_c19e3087c51711bc3c5b039635296cb2/node_modules/vite-ssg/dist/chunks/ClientOnly.mjs": [
+    "assets/headshot.f8a4d12c.png"
+  ],
+  "node_modules/.pnpm/vite-ssg@0.17.11_c19e3087c51711bc3c5b039635296cb2/node_modules/vite-ssg/dist/client/single-page.mjs": [
+    "assets/headshot.f8a4d12c.png"
+  ],
   "src/main.ts": [
     "assets/headshot.f8a4d12c.png"
   ],
   "index.html": [
     "assets/headshot.f8a4d12c.png"
-  ],
-  "node_modules/.pnpm/@vue+shared@3.2.30/node_modules/@vue/shared/dist/shared.esm-bundler.js": [
-    "assets/vendor.719785dd.js"
-  ],
-  "node_modules/.pnpm/@vue+reactivity@3.2.30/node_modules/@vue/reactivity/dist/reactivity.esm-bundler.js": [
-    "assets/vendor.719785dd.js"
-  ],
-  "node_modules/.pnpm/@vue+runtime-core@3.2.30/node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js": [
-    "assets/vendor.719785dd.js"
-  ],
-  "node_modules/.pnpm/@vue+runtime-dom@3.2.30/node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js": [
-    "assets/vendor.719785dd.js"
-  ],
-  "node_modules/.pnpm/vue@3.2.30/node_modules/vue/dist/vue.runtime.esm-bundler.js": [
-    "assets/vendor.719785dd.js"
-  ],
-  "node_modules/.pnpm/@vueuse+head@0.7.5_vue@3.2.30/node_modules/@vueuse/head/dist/index.mjs": [
-    "assets/vendor.719785dd.js"
-  ],
-  "node_modules/.pnpm/vite-ssg@0.17.10_ec3053237bbb47002a1a4b40afdf3d23/node_modules/vite-ssg/dist/chunks/state.mjs": [
-    "assets/vendor.719785dd.js"
-  ],
-  "node_modules/.pnpm/vite-ssg@0.17.10_ec3053237bbb47002a1a4b40afdf3d23/node_modules/vite-ssg/dist/chunks/ClientOnly.mjs": [
-    "assets/vendor.719785dd.js"
-  ],
-  "node_modules/.pnpm/vite-ssg@0.17.10_ec3053237bbb47002a1a4b40afdf3d23/node_modules/vite-ssg/dist/client/single-page.mjs": [
-    "assets/vendor.719785dd.js"
   ]
 }
