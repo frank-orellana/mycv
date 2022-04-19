@@ -8,23 +8,24 @@
     "preview": "vite preview",
     "deploy": "./deploy.sh $(git branch --show-current)",
     "test": "vitest",
-    "coverage": "vitest run --coverage"
+    "coverage": "vitest run --coverage",
+    "sonar": "pnpm coverage && npx sonar-scanner -Dsonar.login=%SONAR%"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@vueuse/head": "^0.7.5",
-    "simple-i18n-ts": "^0.0.1-beta",
-    "vue": "^3.2.31"
+    "@vueuse/head": "^0.7.6",
+    "simple-i18n-ts": "^0.1.0",
+    "vue": "^3.2.33"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^2.3.1",
     "c8": "^7.11.0",
     "sonar-scanner": "^3.1.0",
     "typescript": "^4.6.3",
-    "vite": "^2.9.1",
-    "vite-ssg": "^0.17.11",
-    "vitest": "^0.7.13",
-    "vue-tsc": "^0.29.8"
+    "vite": "^2.9.5",
+    "vite-ssg": "^0.19.2",
+    "vitest": "^0.9.3",
+    "vue-tsc": "^0.34.7"
   }
 }
