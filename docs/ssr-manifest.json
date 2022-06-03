@@ -95,13 +95,13 @@
   "node_modules/.pnpm/@vueuse+head@0.7.6_vue@3.2.33/node_modules/@vueuse/head/dist/index.mjs": [
     "assets/headshot.f8a4d12c.png"
   ],
-  "node_modules/.pnpm/vite-ssg@0.19.2_9f74cbf77075576246ba7f601a12b047/node_modules/vite-ssg/dist/chunks/state.mjs": [
+  "node_modules/.pnpm/vite-ssg@0.19.2_l5b4ibizezw2l22mof3xzk26ue/node_modules/vite-ssg/dist/chunks/state.mjs": [
     "assets/headshot.f8a4d12c.png"
   ],
-  "node_modules/.pnpm/vite-ssg@0.19.2_9f74cbf77075576246ba7f601a12b047/node_modules/vite-ssg/dist/chunks/ClientOnly.mjs": [
+  "node_modules/.pnpm/vite-ssg@0.19.2_l5b4ibizezw2l22mof3xzk26ue/node_modules/vite-ssg/dist/chunks/ClientOnly.mjs": [
     "assets/headshot.f8a4d12c.png"
   ],
-  "node_modules/.pnpm/vite-ssg@0.19.2_9f74cbf77075576246ba7f601a12b047/node_modules/vite-ssg/dist/client/single-page.mjs": [
+  "node_modules/.pnpm/vite-ssg@0.19.2_l5b4ibizezw2l22mof3xzk26ue/node_modules/vite-ssg/dist/client/single-page.mjs": [
     "assets/headshot.f8a4d12c.png"
   ],
   "src/main.ts": [
