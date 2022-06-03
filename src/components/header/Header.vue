@@ -11,6 +11,7 @@
     <div id="name">
       <h1 class="quickFade delayTwo">Franklin Orellana</h1>
       <h2 class="quickFade delayThree">Sr. Software Developer</h2>
+      <h2 class="quickFade delayThree">Status: Currently <span style="color: white; font-weight: bold;">NOT</span> open to new opportunities</h2>
     </div>
 
     <ContactDetails />
