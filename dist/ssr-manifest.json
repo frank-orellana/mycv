@@ -2,16 +2,16 @@
   "vite/modulepreload-polyfill": [
     "assets/headshot.f8a4d12c.png"
   ],
-  "node_modules/.pnpm/@vue+shared@3.2.33/node_modules/@vue/shared/dist/shared.esm-bundler.js": [
+  "node_modules/.pnpm/@vue+shared@3.2.36/node_modules/@vue/shared/dist/shared.esm-bundler.js": [
     "assets/headshot.f8a4d12c.png"
   ],
-  "node_modules/.pnpm/@vue+reactivity@3.2.33/node_modules/@vue/reactivity/dist/reactivity.esm-bundler.js": [
+  "node_modules/.pnpm/@vue+reactivity@3.2.36/node_modules/@vue/reactivity/dist/reactivity.esm-bundler.js": [
     "assets/headshot.f8a4d12c.png"
   ],
-  "node_modules/.pnpm/@vue+runtime-core@3.2.33/node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js": [
+  "node_modules/.pnpm/@vue+runtime-core@3.2.36/node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js": [
     "assets/headshot.f8a4d12c.png"
   ],
-  "node_modules/.pnpm/@vue+runtime-dom@3.2.33/node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js": [
+  "node_modules/.pnpm/@vue+runtime-dom@3.2.36/node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js": [
     "assets/headshot.f8a4d12c.png"
   ],
   "src/data/cv.ts": [
@@ -92,16 +92,16 @@
   "src/App.vue": [
     "assets/headshot.f8a4d12c.png"
   ],
-  "node_modules/.pnpm/@vueuse+head@0.7.6_vue@3.2.33/node_modules/@vueuse/head/dist/index.mjs": [
+  "node_modules/.pnpm/@vueuse+head@0.7.6_vue@3.2.36/node_modules/@vueuse/head/dist/index.mjs": [
     "assets/headshot.f8a4d12c.png"
   ],
-  "node_modules/.pnpm/vite-ssg@0.19.2_l5b4ibizezw2l22mof3xzk26ue/node_modules/vite-ssg/dist/chunks/state.mjs": [
+  "node_modules/.pnpm/vite-ssg@0.20.0_xvxp2qp44erdk7kvfnuquejmdy/node_modules/vite-ssg/dist/chunks/state.mjs": [
     "assets/headshot.f8a4d12c.png"
   ],
-  "node_modules/.pnpm/vite-ssg@0.19.2_l5b4ibizezw2l22mof3xzk26ue/node_modules/vite-ssg/dist/chunks/ClientOnly.mjs": [
+  "node_modules/.pnpm/vite-ssg@0.20.0_xvxp2qp44erdk7kvfnuquejmdy/node_modules/vite-ssg/dist/chunks/ClientOnly.mjs": [
     "assets/headshot.f8a4d12c.png"
   ],
-  "node_modules/.pnpm/vite-ssg@0.19.2_l5b4ibizezw2l22mof3xzk26ue/node_modules/vite-ssg/dist/client/single-page.mjs": [
+  "node_modules/.pnpm/vite-ssg@0.20.0_xvxp2qp44erdk7kvfnuquejmdy/node_modules/vite-ssg/dist/client/single-page.mjs": [
     "assets/headshot.f8a4d12c.png"
   ],
   "src/main.ts": [
