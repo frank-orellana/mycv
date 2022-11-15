@@ -1,113 +1,113 @@
 {
   "vite/modulepreload-polyfill": [
-    "assets/headshot.f8a4d12c.png"
+    "./assets/headshot.f8a4d12c.png"
   ],
-  "node_modules/.pnpm/@vue+shared@3.2.36/node_modules/@vue/shared/dist/shared.esm-bundler.js": [
-    "assets/headshot.f8a4d12c.png"
+  "node_modules/.pnpm/@vue+shared@3.2.45/node_modules/@vue/shared/dist/shared.esm-bundler.js": [
+    "./assets/headshot.f8a4d12c.png"
   ],
-  "node_modules/.pnpm/@vue+reactivity@3.2.36/node_modules/@vue/reactivity/dist/reactivity.esm-bundler.js": [
-    "assets/headshot.f8a4d12c.png"
+  "node_modules/.pnpm/@vue+reactivity@3.2.45/node_modules/@vue/reactivity/dist/reactivity.esm-bundler.js": [
+    "./assets/headshot.f8a4d12c.png"
   ],
-  "node_modules/.pnpm/@vue+runtime-core@3.2.36/node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js": [
-    "assets/headshot.f8a4d12c.png"
+  "node_modules/.pnpm/@vue+runtime-core@3.2.45/node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js": [
+    "./assets/headshot.f8a4d12c.png"
   ],
-  "node_modules/.pnpm/@vue+runtime-dom@3.2.36/node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js": [
-    "assets/headshot.f8a4d12c.png"
+  "node_modules/.pnpm/@vue+runtime-dom@3.2.45/node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js": [
+    "./assets/headshot.f8a4d12c.png"
   ],
   "src/data/cv.ts": [
-    "assets/headshot.f8a4d12c.png"
+    "./assets/headshot.f8a4d12c.png"
   ],
   "src/utils/tools.ts": [
-    "assets/headshot.f8a4d12c.png"
+    "./assets/headshot.f8a4d12c.png"
   ],
   "src/data/cv_arg.ts": [
-    "assets/headshot.f8a4d12c.png"
+    "./assets/headshot.f8a4d12c.png"
   ],
   "src/store.ts": [
-    "assets/headshot.f8a4d12c.png"
+    "./assets/headshot.f8a4d12c.png"
   ],
   "src/i18n/en.ts": [
-    "assets/headshot.f8a4d12c.png"
+    "./assets/headshot.f8a4d12c.png"
   ],
   "src/i18n/es.ts": [
-    "assets/headshot.f8a4d12c.png"
+    "./assets/headshot.f8a4d12c.png"
   ],
   "node_modules/.pnpm/simple-i18n-ts@0.1.0/node_modules/simple-i18n-ts/dist/tools.js": [
-    "assets/headshot.f8a4d12c.png"
+    "./assets/headshot.f8a4d12c.png"
   ],
   "node_modules/.pnpm/simple-i18n-ts@0.1.0/node_modules/simple-i18n-ts/dist/i18n.js": [
-    "assets/headshot.f8a4d12c.png"
+    "./assets/headshot.f8a4d12c.png"
   ],
   "src/i18n/index.ts": [
-    "assets/headshot.f8a4d12c.png"
+    "./assets/headshot.f8a4d12c.png"
   ],
   "src/assets/headshot.png": [
-    "assets/headshot.f8a4d12c.png"
+    "./assets/headshot.f8a4d12c.png"
   ],
   "src/assets/flags/24px-Spain_flag_icon.svg.png": [
-    "assets/headshot.f8a4d12c.png"
+    "./assets/headshot.f8a4d12c.png"
   ],
   "src/assets/flags/24px-United-states_flag_icon_round.svg.png": [
-    "assets/headshot.f8a4d12c.png"
+    "./assets/headshot.f8a4d12c.png"
   ],
-  "src/components/header/ContactDetails.vue": [
-    "assets/headshot.f8a4d12c.png"
+  "src/components/header/ContactDetails.vue?vue&type=script&setup=true&lang.ts": [
+    "./assets/headshot.f8a4d12c.png"
   ],
-  "src/components/header/Header.vue": [
-    "assets/headshot.f8a4d12c.png"
+  "src/components/header/Header.vue?vue&type=script&setup=true&lang.ts": [
+    "./assets/headshot.f8a4d12c.png"
   ],
-  "src/components/mainArea/sections/Title.vue": [
-    "assets/headshot.f8a4d12c.png"
+  "src/components/mainArea/sections/Title.vue?vue&type=script&setup=true&lang.ts": [
+    "./assets/headshot.f8a4d12c.png"
   ],
-  "src/components/mainArea/sections/Experience.vue": [
-    "assets/headshot.f8a4d12c.png"
+  "src/components/mainArea/sections/Experience.vue?vue&type=script&setup=true&lang.ts": [
+    "./assets/headshot.f8a4d12c.png"
   ],
-  "src/components/mainArea/sections/KeySkills.vue": [
-    "assets/headshot.f8a4d12c.png"
+  "src/components/mainArea/sections/KeySkills.vue?vue&type=script&setup=true&lang.ts": [
+    "./assets/headshot.f8a4d12c.png"
   ],
-  "src/components/mainArea/sections/Education.vue": [
-    "assets/headshot.f8a4d12c.png"
+  "src/components/mainArea/sections/Education.vue?vue&type=script&setup=true&lang.ts": [
+    "./assets/headshot.f8a4d12c.png"
   ],
-  "src/components/mainArea/sections/Courses.vue": [
-    "assets/headshot.f8a4d12c.png"
+  "src/components/mainArea/sections/Courses.vue?vue&type=script&setup=true&lang.ts": [
+    "./assets/headshot.f8a4d12c.png"
   ],
-  "src/components/mainArea/sections/PersonalProjects.vue": [
-    "assets/headshot.f8a4d12c.png"
+  "src/components/mainArea/sections/PersonalProjects.vue?vue&type=script&setup=true&lang.ts": [
+    "./assets/headshot.f8a4d12c.png"
   ],
-  "src/components/mainArea/sections/PersonalLinks.vue": [
-    "assets/headshot.f8a4d12c.png"
+  "src/components/mainArea/sections/PersonalLinks.vue?vue&type=script&setup=true&lang.ts": [
+    "./assets/headshot.f8a4d12c.png"
   ],
-  "src/components/mainArea/sections/Languages.vue": [
-    "assets/headshot.f8a4d12c.png"
+  "src/components/mainArea/sections/Languages.vue?vue&type=script&setup=true&lang.ts": [
+    "./assets/headshot.f8a4d12c.png"
   ],
-  "src/components/mainArea/sections/Interests.vue": [
-    "assets/headshot.f8a4d12c.png"
+  "src/components/mainArea/sections/Interests.vue?vue&type=script&setup=true&lang.ts": [
+    "./assets/headshot.f8a4d12c.png"
   ],
-  "src/components/mainArea/MainArea.vue": [
-    "assets/headshot.f8a4d12c.png"
+  "src/components/mainArea/MainArea.vue?vue&type=script&setup=true&lang.ts": [
+    "./assets/headshot.f8a4d12c.png"
   ],
-  "src/components/Curriculum.vue": [
-    "assets/headshot.f8a4d12c.png"
+  "src/components/Curriculum.vue?vue&type=script&setup=true&lang.ts": [
+    "./assets/headshot.f8a4d12c.png"
   ],
-  "src/App.vue": [
-    "assets/headshot.f8a4d12c.png"
+  "src/App.vue?vue&type=script&setup=true&lang.ts": [
+    "./assets/headshot.f8a4d12c.png"
   ],
-  "node_modules/.pnpm/@vueuse+head@0.7.6_vue@3.2.36/node_modules/@vueuse/head/dist/index.mjs": [
-    "assets/headshot.f8a4d12c.png"
+  "node_modules/.pnpm/@vueuse+head@0.7.6_vue@3.2.45/node_modules/@vueuse/head/dist/index.mjs": [
+    "./assets/headshot.f8a4d12c.png"
   ],
-  "node_modules/.pnpm/vite-ssg@0.20.0_xvxp2qp44erdk7kvfnuquejmdy/node_modules/vite-ssg/dist/chunks/state.mjs": [
-    "assets/headshot.f8a4d12c.png"
+  "node_modules/.pnpm/vite-ssg@0.21.2_lgvosxl5vkmys6wtyako2tpzq4/node_modules/vite-ssg/dist/shared/vite-ssg.be31ffcd.mjs": [
+    "./assets/headshot.f8a4d12c.png"
   ],
-  "node_modules/.pnpm/vite-ssg@0.20.0_xvxp2qp44erdk7kvfnuquejmdy/node_modules/vite-ssg/dist/chunks/ClientOnly.mjs": [
-    "assets/headshot.f8a4d12c.png"
+  "node_modules/.pnpm/vite-ssg@0.21.2_lgvosxl5vkmys6wtyako2tpzq4/node_modules/vite-ssg/dist/shared/vite-ssg.c3db3195.mjs": [
+    "./assets/headshot.f8a4d12c.png"
   ],
-  "node_modules/.pnpm/vite-ssg@0.20.0_xvxp2qp44erdk7kvfnuquejmdy/node_modules/vite-ssg/dist/client/single-page.mjs": [
-    "assets/headshot.f8a4d12c.png"
+  "node_modules/.pnpm/vite-ssg@0.21.2_lgvosxl5vkmys6wtyako2tpzq4/node_modules/vite-ssg/dist/client/single-page.mjs": [
+    "./assets/headshot.f8a4d12c.png"
   ],
   "src/main.ts": [
-    "assets/headshot.f8a4d12c.png"
+    "./assets/headshot.f8a4d12c.png"
   ],
   "index.html": [
-    "assets/headshot.f8a4d12c.png"
+    "./assets/headshot.f8a4d12c.png"
   ]
 }
