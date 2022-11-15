@@ -14,7 +14,11 @@ const cv_es: CV = {
 		'capacitación y trato con usuarios.</p>',
 	experience: [
 		{
-			position: 'Senior Software Developer', company: 'COLLABERA Inc', start: 'Octubre 2021', end: 'actual', country: 'USA',
+			position: 'Software Engineer', company: 'META', start: 'Mayo 2022', end: 'actual', country: 'USA',
+			description: 'Trabajando con tecnologías como ReactJS, GraphQL, Html5, ES6+, PHP, Python'
+		},
+		{
+			position: 'Senior Software Developer', company: 'COLLABERA Inc', start: 'Octubre 2021', end: 'Abril 2022', country: 'USA',
 			description: 'Trabajando por contrato para Wayfair Inc. con tecnologías como ReactJS, GraphQL, Html5, ES6+, Python'
 		},
 		{
@@ -189,7 +193,12 @@ const cv_en: CV = {
 	<p>Experience working for projects in El Salvador and abroad, mainly in Chile, Argentina, Mexico and USA, as well as remotely with teams in locations such as USA, Canada, India and Singapore.',
 	experience: [
 		{
-			position: 'Senior Software Developer', company: 'COLLABERA', start: 'October 2021', end: 'current', country: 'USA',
+			position: 'Software Engineer', company: 'META', start: 'May 2022', end: 'actual', country: 'USA',
+			description: 'Working with technologies such as ReactJS, GraphQL, Html5, ES6+, PHP, Python',
+			icon: 'fa-brands fa-meta'
+		},
+		{
+			position: 'Senior Software Developer', company: 'COLLABERA', start: 'October 2021', end: 'April 2022', country: 'USA',
 			description: 'Working as a contract for Wayfair Inc. with technologies such as ReactJS, GraphQL, Html5, ES6+, Python'
 		},
 		{
@@ -301,7 +310,7 @@ const cv_en: CV = {
 		{ name: 'English', level: 'Advanced/Conversational' },
 		{ name: 'French', level: 'Basic' },
 	],
-	courses: cv_es.courses,
+	// courses: cv_es.courses,
 	wsapLnk: 'https://wa.me/18573899796',
 	phone: '(857)389-9796'
 }

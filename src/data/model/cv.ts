@@ -22,6 +22,7 @@ export interface CV {
 		end: string;
 		country: string;
 		description: string;
+		icon?: string
 	}[];
 	education: {
 		institution: string;
@@ -59,7 +60,7 @@ export interface CV {
 		level: string;
 	}[];
 
-	courses: Course[];
+	courses?: Course[];
 
 	wsapLnk: string,
 	phone: string

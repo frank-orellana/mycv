@@ -1,5 +1,5 @@
 <template>
-  <section v-if="store.cv?.education != null && store.cv?.education.length > 0">
+  <section v-if="store.cv?.courses != null && store.cv?.courses.length > 0">
       <div class="sectionTitle">
         <h1>{{ msg.courses }}</h1>
       </div>

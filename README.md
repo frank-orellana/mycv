@@ -14,6 +14,8 @@ To build, run
 pnpm build
 ```
 
+Then run `dist/index.html` with live server extension
+
 To deploy to github pages, run 
 ```bash
 pnpm deploy
@@ -21,8 +23,6 @@ pnpm deploy
 # OR
 ./deploy.sh main
 ```
-
-Then run `dist/index.html` with live server extension
 
 To run sonarqube
 ```bash
