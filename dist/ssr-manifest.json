@@ -2,16 +2,16 @@
   "vite/modulepreload-polyfill": [
     "./assets/headshot.f8a4d12c.png"
   ],
-  "node_modules/.pnpm/@vue+shared@3.2.45/node_modules/@vue/shared/dist/shared.esm-bundler.js": [
+  "node_modules/.pnpm/@vue+shared@3.5.20/node_modules/@vue/shared/dist/shared.esm-bundler.js": [
     "./assets/headshot.f8a4d12c.png"
   ],
-  "node_modules/.pnpm/@vue+reactivity@3.2.45/node_modules/@vue/reactivity/dist/reactivity.esm-bundler.js": [
+  "node_modules/.pnpm/@vue+reactivity@3.5.20/node_modules/@vue/reactivity/dist/reactivity.esm-bundler.js": [
     "./assets/headshot.f8a4d12c.png"
   ],
-  "node_modules/.pnpm/@vue+runtime-core@3.2.45/node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js": [
+  "node_modules/.pnpm/@vue+runtime-core@3.5.20/node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js": [
     "./assets/headshot.f8a4d12c.png"
   ],
-  "node_modules/.pnpm/@vue+runtime-dom@3.2.45/node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js": [
+  "node_modules/.pnpm/@vue+runtime-dom@3.5.20/node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js": [
     "./assets/headshot.f8a4d12c.png"
   ],
   "src/data/cv.ts": [
@@ -92,25 +92,37 @@
   "src/App.vue?vue&type=script&setup=true&lang.ts": [
     "./assets/headshot.f8a4d12c.png"
   ],
-  "node_modules/.pnpm/hookable@5.4.2/node_modules/hookable/dist/index.mjs": [
+  "node_modules/.pnpm/@unhead+shared@1.11.20/node_modules/@unhead/shared/dist/index.mjs": [
     "./assets/headshot.f8a4d12c.png"
   ],
-  "node_modules/.pnpm/@unhead+vue@1.0.6_vue@3.2.45/node_modules/@unhead/vue/dist/index.mjs": [
+  "node_modules/.pnpm/@unhead+dom@1.11.20/node_modules/@unhead/dom/dist/index.mjs": [
     "./assets/headshot.f8a4d12c.png"
   ],
-  "node_modules/.pnpm/@unhead+dom@1.0.6/node_modules/@unhead/dom/dist/index.mjs": [
+  "node_modules/.pnpm/hookable@5.5.3/node_modules/hookable/dist/index.mjs": [
     "./assets/headshot.f8a4d12c.png"
   ],
-  "node_modules/.pnpm/@vueuse+head@1.0.19_vue@3.2.45/node_modules/@vueuse/head/dist/index.mjs": [
+  "node_modules/.pnpm/unhead@1.11.20/node_modules/unhead/dist/index.mjs": [
     "./assets/headshot.f8a4d12c.png"
   ],
-  "node_modules/.pnpm/vite-ssg@0.22.0_eqxemocs3dkoqxq3tfnhlm7mky/node_modules/vite-ssg/dist/shared/vite-ssg.a009fbf1.mjs": [
+  "node_modules/.pnpm/@unhead+vue@1.11.20_vue@3.5.20/node_modules/@unhead/vue/dist/shared/vue.ziyDaVMR.mjs": [
     "./assets/headshot.f8a4d12c.png"
   ],
-  "node_modules/.pnpm/vite-ssg@0.22.0_eqxemocs3dkoqxq3tfnhlm7mky/node_modules/vite-ssg/dist/shared/vite-ssg.5912142e.mjs": [
+  "node_modules/.pnpm/@unhead+vue@1.11.20_vue@3.5.20/node_modules/@unhead/vue/dist/shared/vue.-sixQ7xP.mjs": [
     "./assets/headshot.f8a4d12c.png"
   ],
-  "node_modules/.pnpm/vite-ssg@0.22.0_eqxemocs3dkoqxq3tfnhlm7mky/node_modules/vite-ssg/dist/client/single-page.mjs": [
+  "node_modules/.pnpm/@unhead+vue@1.11.20_vue@3.5.20/node_modules/@unhead/vue/dist/index.mjs": [
+    "./assets/headshot.f8a4d12c.png"
+  ],
+  "node_modules/.pnpm/@vueuse+head@1.0.19_vue@3.5.20/node_modules/@vueuse/head/dist/index.mjs": [
+    "./assets/headshot.f8a4d12c.png"
+  ],
+  "node_modules/.pnpm/vite-ssg@0.22.2_asmj4rufgjjh3sxlihqmmg4nxq/node_modules/vite-ssg/dist/shared/vite-ssg.a009fbf1.mjs": [
+    "./assets/headshot.f8a4d12c.png"
+  ],
+  "node_modules/.pnpm/vite-ssg@0.22.2_asmj4rufgjjh3sxlihqmmg4nxq/node_modules/vite-ssg/dist/shared/vite-ssg.5912142e.mjs": [
+    "./assets/headshot.f8a4d12c.png"
+  ],
+  "node_modules/.pnpm/vite-ssg@0.22.2_asmj4rufgjjh3sxlihqmmg4nxq/node_modules/vite-ssg/dist/client/single-page.mjs": [
     "./assets/headshot.f8a4d12c.png"
   ],
   "src/main.ts": [
