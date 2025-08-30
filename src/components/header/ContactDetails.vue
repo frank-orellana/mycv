@@ -11,7 +11,7 @@
       </li>
       <li>
         <i class="fas fa-globe" aria-hidden="true"></i>:
-        <a href="https://www.tritium.cl" target="_blank" rel="noopener">www.tritium.cl</a>
+        <a href="https://cv.frank-orellana.com/" target="_blank" rel="noopener">cv.frank-orellana.com</a>
       </li>
       <li>
         <i class="fa fa-whatsapp" aria-hidden="true"></i>:
