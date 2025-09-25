@@ -20,11 +20,11 @@ To build, run
 pnpm build
 ```
 
-Then run `dist/index.html` with live server extension
+Then run `dist/index.html` with live server extension to check the distribution version.
 
-To deploy to github pages, run 
+To build and deploy to github pages, run (need to be in a clean git state)
 ```bash
-pnpm deploy
+pnpm run deploy
 
 # OR
 ./deploy.sh main
