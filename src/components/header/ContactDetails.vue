@@ -7,7 +7,7 @@
       </li>
       <li>
         <i class="fab fa-linkedin-in" aria-hidden="true"></i>:
-        <a href="https://bit.ly/linkedin-frank" target="_blank" rel="noopener">bit.ly/linkedin-frank</a>
+        <a href="www.linkedin.com/in/frank-orellana-pineda" target="_blank" rel="noopener">linkedin.com/in/frank-orellana-pineda</a>
       </li>
       <li>
         <i class="fas fa-globe" aria-hidden="true"></i>:
@@ -19,7 +19,7 @@
       </li>
       <li v-if="i18n.currentLang?.startsWith('en')">
         <i class="fas fa-map-marker-alt" aria-hidden="true"></i>:
-        <a href="https://bit.ly/3Bch9ws" target="_blank" rel="noopener">Boston, MA</a>
+        Boston, MA
       </li>
     </ul>
 

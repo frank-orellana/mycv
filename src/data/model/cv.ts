@@ -9,7 +9,7 @@ export interface Course {
 	name: string;
 	description: string;
 	duration: string;
-	link: WebLink;
+	link: WebLink | null;
 	degree?: string
 }
 

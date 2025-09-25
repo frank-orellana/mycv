@@ -71,7 +71,7 @@ const cv_es: CV = {
 			},
 			web: {
 				name: 'Mapas Covid El Salvador',
-				url: 'https://bit.ly/covidmapssv',
+				url: 'https://www.facebook.com/share/v/1CfysHAoCF/',
 				icon: 'fas fa-globe'
 			}
 		},
@@ -92,7 +92,7 @@ const cv_es: CV = {
 				icon: 'fab fa-github'
 			},
 			web: {
-				url: 'https://bit.ly/diffviewer',
+				url: 'https://tritium.cl/diff-viewer/diffviewer.html',
 				icon: 'fas fa-globe'
 			}
 		},
@@ -120,10 +120,10 @@ const cv_es: CV = {
 		}
 	],
 	links: [
-		{ name: 'Linkedin', url: 'https://bit.ly/linkedin-frank', icon: 'fab fa-linkedin-in' },
-		{ name: 'Github', url: 'https://bit.ly/github-frank', icon: 'fab fa-github' },
-		{ name: 'StackOverflow', url: 'https://bit.ly/so-frank', icon: 'fab fa-stack-overflow' },
-		{ name: 'HackerRank', url: 'https://bit.ly/hckr-frank', icon: 'fab fa-hackerrank' },
+		{ name: 'Linkedin', url: 'https://linkedin.com/in/frank-orellana-pineda/?locale=en_US', icon: 'fab fa-linkedin-in' },
+		{ name: 'Github', url: 'https://github.com/frank-orellana', icon: 'fab fa-github' },
+		{ name: 'StackOverflow', url: 'https://stackoverflow.com/users/1583422/frank-orellana', icon: 'fab fa-stack-overflow' },
+		{ name: 'HackerRank', url: 'https://www.hackerrank.com/frank_orellana', icon: 'fab fa-hackerrank' },
 		{ name: 'Kaggle', url: 'https://www.kaggle.com/frankorellana', icon: 'fab fa-kaggle' }
 	],
 	interests: [
@@ -155,47 +155,34 @@ const cv_es: CV = {
 }
 
 const cv_en: CV = {
-	profile: '<p>Senior FullStack Developer with 10+ years of experience, having worked with technologies such as <b>Javascript</b>, \
-	NodeJS, VueJS, React, Java, \
-	Relational databases, etc.  I\'m mainly Development oriented, but also have abilities and experience as tech lead, functional analysis,\
-	user and technical training.</p>\
-	<p>With more than 15 years of total experience in project implementation, development, analysis \
-	and leadership. Having worked with a range of technologies, on all application layers, including:\
-	\
-	<p><ul> \
-		<li> <span style="font-weight: bolder">Backend:</span>\
-			<ul>\
-				<li> Java (SpringBoot, JPA/Hibernate, JSF, JSP, etc)</li>\
-				<li> Node.js, Express, TypeORM</li>\
-				<li> Rest API, SOAP services</li>\
-			</ul>\
-		</li>\
-		<li> <span style="font-weight: bolder">Frontend:</span>\
-			<ul>\
-				<li> HTML, JS, Typescript, CSS</li>\
-				<li> Vue, React, Cordova</li>\
-				<li> Rest, GraphQL</li>\
-			</ul>\
-		</li>\
-		<li> <span style="font-weight: bolder">Data:</span>\
-			<ul>\
-				<li> Oracle PL-SQL, SQL Server T-SQL</li>\
-			</ul>\
-		</li>\
-		<li> <span style="font-weight: bolder">Others:</span>\
-			<ul>\
-				<li> Scrum</li>\
-				<li> CD/CI tools (Jenkins, Sonarcube, etc)</li>\
-			</ul>\
-		</li>\
-	</ul>\
-	</p>\
-	<p>Experience working for projects in El Salvador and abroad, mainly in Chile, Argentina, Mexico and USA, as well as remotely with teams in locations such as USA, Canada, India and Singapore.',
+	profile: `
+	<p>Software engineer with 15+ years building production systems and experience and data analysis, learning statistics and machine learning through coursework and personal projects. I combine solid software engineering practices (scalable services, testing, CI/CD) with data-oriented skills in <b>Python</b> and <b>R</b> for reproducible analysis, visualization and prototyping.</p>
+	<p>I have completed coursework in linear models, statistics, data analytics and machine learning. I am interested in exploring computational biology and bioinformatics applications and applying my engineering and data skills to scientific datasets such as genomics and high-throughput experiments.</p>
+	<p>Key strengths: designing and implementing robust data pipelines and APIs, exploratory data analysis and visualization, reproducible analysis, and collaborating with cross-functional teams to deliver production-ready solutions.</p>
+	<p>Technical highlights include:</p>
+	<ul>
+		<li><b>Engineering:</b> Backend APIs (Node.js, Express, Java/SpringBoot), relational databases (Oracle, SQL Server, Postgres), and CI/CD-driven deployments.</li>
+		<li><b>Frontend engineering:</b> interactive UI development, client-side data visualization and mapping with React and JavaScript, attention to performance and usability for large datasets.</li>
+		<li><b>Data pipelines & interactive visualization:</b> scripting for ETL and reproducible analysis; practical experience building interactive visualizations and mapping front-ends using React and JavaScript.</li>
+		<li><b>Data & ML (interest):</b> basic familiarity with Python for data tasks (primarily used for ETL, cleaning and processing; introductory exposure to pandas/NumPy) and coursework in statistical concepts and introductory ML.</li>
+	</ul>
+		<p>I have experience extracting, cleaning and visualizing datasets, and I am actively building projects and examples to demonstrate applied data skills. I'm looking for opportunities where I can apply software engineering and growing data-science skills to scientific problems.</p>
+	`,
 	experience: [
 		{
 			position: 'Software Engineer', company: 'META', start: 'May 2022', end: 'actual', country: 'USA',
-			description: 'Working with technologies such as ReactJS, GraphQL, Html5, ES6+, PHP, Python',
-			icon: 'fa-brands fa-meta'
+			description:
+				'<p>As a Software Engineer on the Actionable Insights team, I play a crucial role in developing and enhancing features for Meta\'s Network Insights product (Part of Actionable Insights).</p>' +
+				'<p>My primary focus was on developing and optimizing features for Network Insights, with a strong emphasis on improving data handling efficiency, enhancing user experience, and ensuring the successful release of new features I developed to drive business growth and partner satisfaction.</p>' +
+				'<p><b>Key Responsibilities:</b></p>' +
+				'<ul>' +
+				'<li>Develop and optimize features for Actionable Insights, focusing on data handling efficiency and network performance.</li>' +
+				'<li>Collaborated with cross-functional teams to ensure the successful release of new features and improvements.</li>' +
+				'<li>Conducted thorough reviews of code changes and provided constructive feedback to team members.</li>' +
+				'<li>Participated in backlog and service ticket meetings to define processes for handling partner and internal requests efficiently.</li>' +
+				'<li>Provided mentorship and guidance to junior team members and bootcampers.</li>' +
+				'</ul>',
+				icon: 'fa-brands fa-meta'
 		},
 		{
 			position: 'Senior Software Developer', company: 'COLLABERA', start: 'October 2021', end: 'April 2022', country: 'USA',
@@ -210,7 +197,7 @@ const cv_en: CV = {
 			description: 'Senior Full-Stack developer at Everis, working for Scotiabank Chile with technologies such as ReactJS, SpringBoot, Jenkins, Sonarcube among others, in a project driven with the scrum methodology'
 		},
 		{
-			position: 'Senior Developer / Owner', company: 'TRITIUM', start: 'October 2014', end: 'Current', country: 'Chile',
+			position: 'Partner / Sr. Consultant', company: 'TRITIUM', start: 'October 2014', end: 'Current', country: 'Chile',
 			description: "Working for our customers with enterprise class HR software, especially with Meta4 PeopleNet, providing consulting services in different HR and tech areas.<br>" +
 				"Projects Responsibilities:" +
 				"<ul><li>Software implementation: Meta4/PeopleNet, Payroll, SelfService and HR (Personnel Evaluation, Selection, Training, among others)</li>" +
@@ -228,21 +215,21 @@ const cv_en: CV = {
 		// 		This job required me to work with clients to decide the best solutions for their environments and \
 		// 		then applying those solutions to the system. Developing with PeopleNet LN4, Java, SQL among others.<br>"
 		// },
-		{
-			position: 'Senior Java Developer', company: 'Huenei (Working at Citibank)', start: 'July 2012', end: 'July 2013', country: 'Argentina',
-			description: "Working in the integration of a global CRM system, as part of a global standardization project which \
-				aimed to have the same basic system running in all of their offices around the world. Working with Java based IBM Portals technology.<br>" +
-				"Achievements: Helped integrate CRM system, and also helped other teams to finalize their assignments."
-		}
+		// {
+		// 	position: 'Senior Java Developer', company: 'Huenei (Working at Citibank)', start: 'July 2012', end: 'July 2013', country: 'Argentina',
+		// 	description: "Working in the integration of a global CRM system, as part of a global standardization project which \
+		// 		aimed to have the same basic system running in all of their offices around the world. Working with Java based IBM Portals technology.<br>" +
+		// 		"Achievements: Helped integrate CRM system, and also helped other teams to finalize their assignments."
+		// }
 	],
 	education: [
 		{ institution: "Universidad Centroamericana UCA (El Salvador)", degree: "Bachelor in Computer Science", description: "", duration: "2003 - 2008" }
 	],
-	skills: ['Javascript/Typescript', 'Vue, React', 'NodeJS', 'Express', 'HTML/CSS', 'JQuery/Bootstrap', 'REST, GraphQL, SOAP', 'Java', 'SQL, PL/SQL', 'Spring Framework', 'Python, R', 'Oracle, SQL Server, etc.', 'Git', 'NoSQL, TypeORM', 'TDD/Jest/Mocha/Chai', 'ESLint/TSLint/Prettier', 'Mockito', 'Sonarcube'],
+	skills: ['Python (primarily for ETL, data cleaning and processing; basic pandas/NumPy exposure)', 'R (coursework exposure)', 'Familiarity with statistical concepts and linear models (coursework)', 'Data analysis & visualization (introductory)', 'Foundational machine learning concepts (coursework)', 'Interactive visualizations & mapping (React, D3, Leaflet)', 'Javascript/Typescript', 'Vue, React', 'NodeJS, Express', 'SQL / PL-SQL / T-SQL', 'Java (Spring/SpringBoot)', 'Bash, CI/CD', 'Git', 'NoSQL, TypeORM', 'TDD/Jest/Mocha/Chai'],
 
 	personalProjects: [
 		{
-			name: 'Covid Maps El Salvador', description: 'Covid maps that show how the disease confirmed cases have evolved over time and area in the country, developed with JS/TS, REST API, NodeJs, VueJS, Express, TypeORM, Charts.js ', duration: '2020 - Current',
+			name: 'Covid Maps El Salvador (archived)', description: 'Interactive maps and charts showing historical Covid cases by region; developed as a public data visualization project using JS/TS, REST APIs, Node.js and Vue.js.', duration: '2020 - 2021',
 			repo: {
 				name: 'Github',
 				url: 'https://github.com/tritiumcl/covid-maps-sv',
@@ -250,7 +237,7 @@ const cv_en: CV = {
 			},
 			web: {
 				name: 'Covid Maps El Salvador',
-				url: 'https://bit.ly/covidmapssv',
+				url: 'https://www.facebook.com/share/v/1CfysHAoCF/',
 				icon: 'fas fa-globe'
 			}
 		},
@@ -271,7 +258,7 @@ const cv_en: CV = {
 				icon: 'fab fa-github'
 			},
 			web: {
-				url: 'https://bit.ly/diffviewer',
+				url: 'https://tritium.cl/diff-viewer/diffviewer.html',
 				icon: 'fas fa-globe'
 			}
 		},
@@ -300,9 +287,9 @@ const cv_en: CV = {
 	],
 	links: cv_es.links,
 	interests: [
-		{ name: 'Artificial Intelligence' },
+		{ name: 'Computational Biology / Bioinformatics' },
 		{ name: 'Machine Learning' },
-		{ name: 'DataScience' },
+		{ name: 'Data Science' },
 		{ name: 'Traveling' }
 	],
 	languages: [
@@ -310,7 +297,20 @@ const cv_en: CV = {
 		{ name: 'English', level: 'Advanced/Conversational' },
 		{ name: 'French', level: 'Basic' },
 	],
-	// courses: cv_es.courses,
+	courses: [
+		...(cv_es.courses || []),
+		{
+			institution: 'Self-study / online courses',
+			name: 'Linear Models, Statistics, Data Analytics, Machine Learning (MOOCs)',
+			description: 'Coursework and exercises covering linear models, statistical inference, exploratory data analysis and introductory machine learning. Focus on reproducible analysis with Python and practical ETL/data-cleaning workflows.<br> \
+			   Certificates: <ul> \
+				   <li><a href="https://courses.edx.org/certificates/0dceabcc6368451594cb631a99d03b22" target="_blank" rel="noopener">Statistics and R</a></li> \
+					 <li><a href="https://courses.edx.org/certificates/4a14d3096d1d4e039d66e1442367f1da" target="_blank" rel="noopener">Machine Learning with Python-From Linear Models to Deep Learning</a>.</li>\
+				</ul>',
+			duration: '2020-2024',
+			link: null
+		}
+	],
 	wsapLnk: 'https://wa.me/18573899796',
 	phone: '(857)389-9796'
 }
