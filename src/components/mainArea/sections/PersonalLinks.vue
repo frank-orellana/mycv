@@ -8,7 +8,7 @@
         <ul class="keySkills noBullet personal-links">
           <li v-for="lnk in store.cv?.links">
             <i :class="lnk.icon" aria-hidden="true"></i>&nbsp;
-            <a :href="lnk.url">
+            <a :href="lnk.url" target="_blank">
               <span>{{ lnk.name ? lnk.name : lnk.url.replace(/https?:\/\//, '') }}</span>
               <span
                 class="printOnly"
