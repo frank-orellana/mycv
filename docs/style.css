@@ -278,7 +278,8 @@ section:first-child {
 		}
 
 		.personal-links {
-			column-count:2;
+			/* print: use a single column for links to avoid splitting long URLs across columns */
+			column-count:1;
 		}
 
 		#name h1, #name h2, .sectionTitle h1, #contactDetails ul li a, a[href^=tel]  {
