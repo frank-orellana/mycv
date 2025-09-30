@@ -277,9 +277,13 @@ section:first-child {
 				width: 100%;
 				margin: 0;
 				max-width: 100%;
+				background-color: white;
 		}
-		
-		html, body {background: none;}
+
+		/* Remove backgrounds in print mode */
+		html, body, .mainDetails, #mainArea, section, .sectionTitle {
+			background: none;
+		}
 
 		section {
 			padding: 0;
