@@ -29,35 +29,29 @@ p {
 #app {
 	width: 90%;
 	max-width: 800px;
-	background: #f3f3f3;
 	margin: 30px auto;
 }
 
 .mainDetails {
 	padding: 25px 35px;
 	border-bottom: 1px solid darkslategray;
-	background: darkblue;
-	color: white;
 }
 
 #name h1 {
 	font-size: 2.5em;
 	font-weight: 700;
 	font-family:  Calibri, Helvetica, Arial, sans-serif;
-	margin-bottom: -6px; 
-	color: white;
+	margin-bottom: -6px;
 }
 
 #name h2 {
 	font-size: 1.5em;
 	margin-left: 2px;
 	font-family: Calibri, Helvetica, Arial, sans-serif;
-	color: white;
 }
 
 #mainArea {
 	padding: 0 0;
-	background-color: darkblue;
 }
 
 #headshot {
@@ -81,10 +75,6 @@ p {
 	float: right;
 }
 
-#contactDetails * {
-	color: white;
-}
-
 #contactDetails ul {
 	list-style-type: none;
 	font-size: 0.9em;
@@ -96,7 +86,6 @@ p {
 }
 
 #contactDetails ul li a, a[href^=tel] {
-	color: white;
 	text-decoration: none;
 	-webkit-transition: all .3s ease-in;
 	-moz-transition: all .3s ease-in;
@@ -106,13 +95,12 @@ p {
 }
 
 #contactDetails ul li a:hover { 
-	color: white;
+	color: rgb(172, 171, 171);
 }
 
 
 section {
 	border-top: 0;
-	background-color: darkblue;
 	padding: 10px 0 10px;
 }
 
@@ -134,19 +122,61 @@ section:first-child {
 	padding-top: 4px;
 }
 
-.sectionContent p, .sectionContent li{
+.sectionContent p {
   padding: 0 5px 0 10px;
 	font-size: 13px;
 }
+
+.sectionContent p[data-bullet] {
+  padding-left: 16px;
+  text-indent: -8px;
+  margin-bottom: 1px;
+  line-height: 15px;
+}
+
 .no-wrap {
 	white-space: nowrap;
 }
-.sectionContent ul{
-  list-style: none; 
+
+/* General bullet point styling */
+.sectionContent ul {
+  list-style: none;
+  padding: 0 10px;
 }
-.sectionContent ul li::before{
-	content: "\2022";
-	display: inline-block;
+
+.sectionContent ul li {
+  padding-left: 12px;
+  text-indent: -8px;
+  line-height: 15px;
+  margin-bottom: 3px;
+  font-size: 13px;
+}
+
+.sectionContent ul li:before {
+	content: "•";
+	padding-right: 4px;
+}
+
+/* Personal links specific styling */
+.personal-links {
+  padding-left: 0;
+}
+
+.personal-links li {
+  padding-left: 16px;
+  margin-left: 0;
+}
+
+/* Language section styling */
+.keySkills.noBullet li:before {
+  content: "•";
+  padding-right: 4px;
+  display: inline-block;
+}
+
+.keySkills.noBullet li {
+  padding-left: 12px;
+  text-indent: -8px;
 }
 
 .sectionTitle h1 {
@@ -179,11 +209,40 @@ section:first-child {
 	margin-bottom: 10px;
 	font-size: 1em;
 	color: #444;
+	padding: 0 10px;
 }
 
-.keySkills ul li {
+.keySkills li {
 	margin-bottom: 3px;
-	font-size: 0.8em;
+	font-size: 13px;
+	padding-left: 12px;
+	text-indent: -8px;
+	line-height: 15px;
+}
+
+.keySkills li:before {
+	content: "•";
+	padding-right: 5px;
+}
+
+@media screen {
+	/* Dark theme colors - only apply on screen */
+	.mainDetails {
+		background: darkblue;
+		color: white;
+	}
+
+	#mainArea {
+		background-color: darkblue;
+	}
+
+	section {
+		background-color: darkblue;
+	}
+
+	#name h1, #name h2, .sectionTitle h1, #contactDetails *, #contactDetails ul li a, a[href^=tel] {
+		color: white;
+	}
 }
 
 @media screen and (min-width: 602px) and (max-width: 800px) {
@@ -266,8 +325,11 @@ section:first-child {
 				margin: 0;
 				max-width: 100%;
 		}
-		
-		html, body {background: darkblue;}
+
+		/* Remove backgrounds in print mode */
+		html, body, .mainDetails, #mainArea, section, .sectionTitle {
+			background: none;
+		}
 
 		section {
 			padding: 0;
@@ -277,13 +339,19 @@ section:first-child {
 			page-break-inside: avoid;
 		}
 
+		/* Prevent breaking inside experience entries */
+		.sectionContent > article {
+			page-break-inside: avoid;
+			break-inside: avoid;
+		}
+
 		.personal-links {
 			/* print: use a single column for links to avoid splitting long URLs across columns */
 			column-count:1;
 		}
 
-		#name h1, #name h2, .sectionTitle h1, #contactDetails ul li a, a[href^=tel]  {
-			color: slategray;
+		#name h1, #name h2, .sectionTitle h1, #contactDetails ul li *, a[href^=tel]  {
+			color: darkslategray;
 		}
 }
 
