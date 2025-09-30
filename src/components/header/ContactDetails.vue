@@ -19,7 +19,7 @@
       </li>
       <li v-if="i18n.currentLang?.startsWith('en')">
         <i class="fas fa-map-marker-alt" aria-hidden="true"></i>:
-        Boston, MA
+        <span>South shore Boston, MA</span>
       </li>
     </ul>
 

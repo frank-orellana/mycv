@@ -1,7 +1,7 @@
 import { CV } from "./model/cv.js";
 
 const cv_es: CV = {
-	profile: '<p>Desarrollador Senior con mas de 5 años de experiencia con Java, Javascript y Oracle PL-SQL, y mas de 10 años de experiencia con Meta4 PeopleNet.</p>' +
+	profile: '<p>Desarrollador Senior con mas de 15 años de experiencia con Java, Javascript y Oracle PL-SQL, y mas de 10 años de experiencia con Meta4 PeopleNet.</p>' +
 		'<p>Con mucha experiencia en desarrollo, implementación, análisis ' +
 		'y liderazgo técnico en proyectos de diversas áreas de negocio ' +
 		'trabajando con múltiples tecnologías, tales como Meta4 PeopleNet ' +
@@ -150,14 +150,14 @@ const cv_es: CV = {
 		}
 	],
 
-	wsapLnk: 'https://wa.me/56951377594',
-	phone: '+56951377594'
+	wsapLnk: 'https://wa.me/18573899796',
+	phone: '+1 (857) 389-9796'
 }
 
 const cv_en: CV = {
 	profile: `
-	<p>Software engineer with 15+ years building production systems and experience and data analysis, learning statistics and machine learning through coursework and personal projects. I combine solid software engineering practices (scalable services, testing, CI/CD) with data-oriented skills in <b>Python</b> and <b>R</b> for reproducible analysis, visualization and prototyping.</p>
-	<p>I have completed coursework in linear models, statistics, data analytics and machine learning. I am interested in exploring computational biology and bioinformatics applications and applying my engineering and data skills to scientific datasets such as genomics and high-throughput experiments.</p>
+	<p>Software engineer with 15+ years building production systems and experience in data analysis, combining statistics and machine learning coursework with hands-on projects. Demonstrated ability to merge solid software engineering practices (scalable services, testing, CI/CD) with data-oriented skills in <b>Python</b> and <b>R</b> for reproducible analysis, visualization and prototyping.</p>
+	<p>Completed extensive coursework in linear models, statistics, data analytics and machine learning. Keen interest in computational biology and bioinformatics applications, with focus on applying engineering and data skills to scientific datasets such as genomics and high-throughput experiments.</p>
 	<p>Key strengths: designing and implementing robust data pipelines and APIs, exploratory data analysis and visualization, reproducible analysis, and collaborating with cross-functional teams to deliver production-ready solutions.</p>
 	<p>Technical highlights include:</p>
 	<ul>
@@ -166,21 +166,21 @@ const cv_en: CV = {
 		<li><b>Data pipelines & interactive visualization:</b> scripting for ETL and reproducible analysis; practical experience building interactive visualizations and mapping front-ends using React and JavaScript.</li>
 		<li><b>Data & ML (interest):</b> basic familiarity with Python for data tasks (primarily used for ETL, cleaning and processing; introductory exposure to pandas/NumPy) and coursework in statistical concepts and introductory ML.</li>
 	</ul>
-		<p>I have experience extracting, cleaning and visualizing datasets, and I am actively building projects and examples to demonstrate applied data skills. I'm looking for opportunities where I can apply software engineering and growing data-science skills to scientific problems.</p>
+		<p>Strong experience in extracting, cleaning and visualizing datasets, with active development of projects demonstrating applied data skills. Seeking opportunities to apply software engineering expertise and growing data-science capabilities to scientific problems.</p>
 	`,
 	experience: [
 		{
 			position: 'Software Engineer', company: 'META', start: 'May 2022', end: 'actual', country: 'USA',
 			description:
-				'<p>As a Software Engineer on the Actionable Insights team, I play a crucial role in developing and enhancing features for Meta\'s Network Insights product (Part of Actionable Insights).</p>' +
-				'<p>My primary focus was on developing and optimizing features for Network Insights, with a strong emphasis on improving data handling efficiency, enhancing user experience, and ensuring the successful release of new features I developed to drive business growth and partner satisfaction.</p>' +
-				'<p><b>Key Responsibilities:</b></p>' +
+				'<p>Software Engineer on the Actionable Insights team, responsible for developing and enhancing features for Meta\'s Network Insights product.</p>' +
+				'<p>Led development and optimization of Network Insights features, focusing on data handling efficiency, user experience improvements, and successful feature releases to drive business growth and partner satisfaction.</p>' +
+				'<p><b>Key Achievements:</b></p>' +
 				'<ul>' +
-				'<li>Develop and optimize features for Actionable Insights, focusing on data handling efficiency and network performance.</li>' +
-				'<li>Collaborated with cross-functional teams to ensure the successful release of new features and improvements.</li>' +
-				'<li>Conducted thorough reviews of code changes and provided constructive feedback to team members.</li>' +
-				'<li>Participated in backlog and service ticket meetings to define processes for handling partner and internal requests efficiently.</li>' +
-				'<li>Provided mentorship and guidance to junior team members and bootcampers.</li>' +
+				'<li>Developed and optimized features for Actionable Insights, improving data handling efficiency and network performance.</li>' +
+				'<li>Collaborated with cross-functional teams to ensure successful release of new features and improvements.</li>' +
+				'<li>Conducted thorough code reviews and provided constructive feedback to strengthen team code quality.</li>' +
+				'<li>Defined and implemented efficient processes for handling partner and internal requests through backlog and service ticket management.</li>' +
+				'<li>Mentored junior team members and bootcampers, fostering technical growth and best practices.</li>' +
 				'</ul>',
 				icon: 'fa-brands fa-meta'
 		},
