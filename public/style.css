@@ -36,8 +36,6 @@ p {
 .mainDetails {
 	padding: 25px 35px;
 	border-bottom: 1px solid darkslategray;
-	background: darkblue;
-	color: white;
 }
 
 #name h1 {
@@ -57,7 +55,6 @@ p {
 
 #mainArea {
 	padding: 0 0;
-	background-color: darkblue;
 }
 
 #headshot {
@@ -79,10 +76,6 @@ p {
 
 #contactDetails {
 	float: right;
-}
-
-#contactDetails * {
-	color: white;
 }
 
 #contactDetails ul {
@@ -112,7 +105,6 @@ p {
 
 section {
 	border-top: 0;
-	background-color: darkblue;
 	padding: 10px 0 10px;
 }
 
@@ -184,6 +176,26 @@ section:first-child {
 .keySkills ul li {
 	margin-bottom: 3px;
 	font-size: 0.8em;
+}
+
+@media screen {
+	/* Dark theme colors - only apply on screen */
+	.mainDetails {
+		background: darkblue;
+		color: white;
+	}
+
+	#mainArea {
+		background-color: darkblue;
+	}
+
+	section {
+		background-color: darkblue;
+	}
+
+	#name h1, #name h2, .sectionTitle h1, #contactDetails *, #contactDetails ul li a, a[href^=tel] {
+		color: white;
+	}
 }
 
 @media screen and (min-width: 602px) and (max-width: 800px) {
@@ -267,7 +279,7 @@ section:first-child {
 				max-width: 100%;
 		}
 		
-		html, body {background: darkblue;}
+		html, body {background: none;}
 
 		section {
 			padding: 0;
