@@ -32,14 +32,14 @@ const cv_es: CV = {
 		{
 			position: 'Desarrollador Senior', company: 'TRITIUM', start: 'Octubre 2014', end: 'Actualidad', country: 'Chile',
 			description: "Partner y Consultor, dedicado principalmente al apoyo a clientes en sus sistemas de Recursos humanos y otros, especializándome sobre todo en los sistemas Meta4 PeopleNet, Meta4 SelfService, Oracle Java y PL-SQL, R, entre otros, y en la integración de dichas tecnologías con otros sistemas de software y hardware.<br>" +
-				"Entre las actividades realizadas en proyectos en los que he participado se	encuentran:" +
-				"<ul><li>Implementación de software Meta4/PeopleNet, Nómina, AutoServicio y RRHH	(Evaluación, Selección, Capacitación, entre otros)</li>" +
-				"<li>Optimización, mantenimiento y mejoras de procesos de nómina PeopleNet</li>" +
-				"<li>Implementación, modificaciones y mantenimiento de sistemas de control de asistencia</li>" +
-				"<li>Extracción, análisis y publicación de datos</li>" +
-				"<li>Actualización infraestructura</li>" +
-				"<li>Pruebas de Rendimiento (Stress Testing)</li>" +
-				"<li>Capacitaciones de usuarios y desarrolladores</li></ul>"
+				"<p>Entre las actividades realizadas en proyectos en los que he participado se encuentran:</p>" +
+				"<p data-bullet>• Implementación de software Meta4/PeopleNet, Nómina, AutoServicio y RRHH (Evaluación, Selección, Capacitación, entre otros)</p>" +
+				"<p data-bullet>• Optimización, mantenimiento y mejoras de procesos de nómina PeopleNet</p>" +
+				"<p data-bullet>• Implementación, modificaciones y mantenimiento de sistemas de control de asistencia</p>" +
+				"<p data-bullet>• Extracción, análisis y publicación de datos</p>" +
+				"<p data-bullet>• Actualización infraestructura</p>" +
+				"<p data-bullet>• Pruebas de Rendimiento (Stress Testing)</p>" +
+				"<p data-bullet>• Capacitaciones de usuarios y desarrolladores</p>"
 		},
 		{
 			position: 'Desarrollador Senior', company: 'LEMA', start: 'Agosto 2013', end: 'Octubre 2014', country: 'Chile',
@@ -142,7 +142,7 @@ const cv_es: CV = {
 			name: 'Statistics and Data Science',
 			description: 'Currently coursing program.<br>\
 			From probability and statistics to data analysis and machine learning, master the skills needed to solve complex challenges with data.',
-			duration: '2021-Current (Est. 2022)',
+			duration: '2021-Current',
 			link: {
 				url: 'https://micromasters.mit.edu/ds/',
 				icon: 'fas fa-globe'
@@ -156,17 +156,15 @@ const cv_es: CV = {
 
 const cv_en: CV = {
 	profile: `
-	<p>Software engineer with 15+ years building production systems and experience in data analysis, combining statistics and machine learning coursework with hands-on projects. Demonstrated ability to merge solid software engineering practices (scalable services, testing, CI/CD) with data-oriented skills in <b>Python</b> and <b>R</b> for reproducible analysis, visualization and prototyping.</p>
+	<p>Software engineer with 15+ years building production systems and experience in data analysis, combining statistics and machine learning coursework with hands-on projects. Demonstrated ability to merge solid software engineering practices (scalable services, testing, CI/CD) with data-oriented skills in Python and R for reproducible analysis, visualization and prototyping.</p>
 	<p>Completed extensive coursework in linear models, statistics, data analytics and machine learning. Keen interest in computational biology and bioinformatics applications, with focus on applying engineering and data skills to scientific datasets such as genomics and high-throughput experiments.</p>
 	<p>Key strengths: designing and implementing robust data pipelines and APIs, exploratory data analysis and visualization, reproducible analysis, and collaborating with cross-functional teams to deliver production-ready solutions.</p>
-	<p>Technical highlights include:</p>
-	<ul>
-		<li><b>Engineering:</b> Backend APIs (Node.js, Express, Java/SpringBoot), relational databases (Oracle, SQL Server, Postgres), and CI/CD-driven deployments.</li>
-		<li><b>Frontend engineering:</b> interactive UI development, client-side data visualization and mapping with React and JavaScript, attention to performance and usability for large datasets.</li>
-		<li><b>Data pipelines & interactive visualization:</b> scripting for ETL and reproducible analysis; practical experience building interactive visualizations and mapping front-ends using React and JavaScript.</li>
-		<li><b>Data & ML (interest):</b> basic familiarity with Python for data tasks (primarily used for ETL, cleaning and processing; introductory exposure to pandas/NumPy) and coursework in statistical concepts and introductory ML.</li>
-	</ul>
-		<p>Strong experience in extracting, cleaning and visualizing datasets, with active development of projects demonstrating applied data skills. Seeking opportunities to apply software engineering expertise and growing data-science capabilities to scientific problems.</p>
+	<p>Technical highlights:</p>
+	<p data-bullet>• Engineering: Backend APIs (Node.js, Express, Java/SpringBoot), relational databases (Oracle, SQL Server, Postgres), and CI/CD-driven deployments.</p>
+	<p data-bullet>• Frontend engineering: interactive UI development, client-side data visualization and mapping with React and JavaScript, attention to performance and usability for large datasets.</p>
+	<p data-bullet>• Data pipelines & interactive visualization: scripting for ETL and reproducible analysis; practical experience building interactive visualizations and mapping front-ends using React and JavaScript.</p>
+	<p data-bullet>• Data & ML (interest): basic familiarity with Python for data tasks (primarily used for ETL, cleaning and processing; introductory exposure to pandas/NumPy) and coursework in statistical concepts and introductory ML.</p>
+	<p>Strong experience in extracting, cleaning and visualizing datasets, with active development of projects demonstrating applied data skills. Seeking opportunities to apply software engineering expertise and growing data-science capabilities to scientific problems.</p>
 	`,
 	experience: [
 		{
@@ -174,39 +172,37 @@ const cv_en: CV = {
 			description:
 				'<p>Software Engineer on the Actionable Insights team, responsible for developing and enhancing features for Meta\'s Network Insights product.</p>' +
 				'<p>Led development and optimization of Network Insights features, focusing on data handling efficiency, user experience improvements, and successful feature releases to drive business growth and partner satisfaction.</p>' +
-				'<p><b>Key Achievements:</b></p>' +
-				'<ul>' +
-				'<li>Developed and optimized features for Actionable Insights, improving data handling efficiency and network performance.</li>' +
-				'<li>Collaborated with cross-functional teams to ensure successful release of new features and improvements.</li>' +
-				'<li>Conducted thorough code reviews and provided constructive feedback to strengthen team code quality.</li>' +
-				'<li>Defined and implemented efficient processes for handling partner and internal requests through backlog and service ticket management.</li>' +
-				'<li>Mentored junior team members and bootcampers, fostering technical growth and best practices.</li>' +
-				'</ul>',
+				'<p>Key Achievements:</p>' +
+				'<p data-bullet>• Developed and optimized features for Actionable Insights, improving data handling efficiency and network performance.</p>' +
+				'<p data-bullet>• Collaborated with cross-functional teams to ensure successful release of new features and improvements.</p>' +
+				'<p data-bullet>• Conducted thorough code reviews and provided constructive feedback to strengthen team code quality.</p>' +
+				'<p data-bullet>• Defined and implemented efficient processes for handling partner and internal requests through backlog and service ticket management.</p>' +
+				'<p data-bullet>• Mentored junior team members and bootcampers, fostering technical growth and best practices.</p>',
 				icon: 'fa-brands fa-meta'
 		},
 		{
 			position: 'Senior Software Developer', company: 'COLLABERA', start: 'October 2021', end: 'April 2022', country: 'USA',
-			description: 'Working as a contract for Wayfair Inc. with technologies such as ReactJS, GraphQL, Html5, ES6+, Python'
+			description: '<p>Working as a contract for Wayfair Inc. for building external facing login portal, with technologies such as ReactJS, GraphQL, Html5, ES6+, Python</p>'
 		},
 		{
 			position: 'Senior Software Developer', company: 'AUSTIN SOFTWARE', start: 'April 2021', end: 'October 2021', country: 'Chile/USA',
-			description: 'Working for an Austin, TX based startup, with a variety of technologies, including ReactJS, Material-UI, Html5, ES6+, Python'
+			description: '<p>Working for an Austin, TX based startup, with a variety of technologies, including ReactJS, Material-UI, Html5, ES6+, Python</p>'
 		},
 		{
 			position: 'Solutions Analyst', company: 'EVERIS', start: 'November 2020', end: 'April 2021', country: 'Chile',
-			description: 'Senior Full-Stack developer at Everis, working for Scotiabank Chile with technologies such as ReactJS, SpringBoot, Jenkins, Sonarcube among others, in a project driven with the scrum methodology'
+			description: '<p>Senior Full-Stack developer at Everis, working for Scotiabank Chile with technologies such as ReactJS, SpringBoot, Jenkins, Sonarcube among others, in a project driven with the scrum methodology</p>'
 		},
 		{
 			position: 'Partner / Sr. Consultant', company: 'TRITIUM', start: 'October 2014', end: 'Current', country: 'Chile',
-			description: "Working for our customers with enterprise class HR software, especially with Meta4 PeopleNet, providing consulting services in different HR and tech areas.<br>" +
-				"Projects Responsibilities:" +
-				"<ul><li>Software implementation: Meta4/PeopleNet, Payroll, SelfService and HR (Personnel Evaluation, Selection, Training, among others)</li>" +
-				"<li>PeopleNet Payroll Performance Improvement, maintenance and customization</li>" +
-				"<li>Attendance control system implementation, customization and maintenance.</li>" +
-				"<li>Data extraction, analysis and publication.</li>" +
-				"<li>Technological upgrades</li>" +
-				"<li>Stress Testing</li>" +
-				"<li>User and developer trainings</li></ul>"
+			description: "<p>Working for our customers with enterprise class HR software, especially with Meta4 PeopleNet, providing consulting services in different HR and tech areas.</p>" +
+				"<p>Projects Responsibilities:</p>" +
+				"<p data-bullet>• Software implementation: Meta4/PeopleNet, Payroll, SelfService and HR (Personnel Evaluation, Selection, Training, among others)</p>" +
+				"<p data-bullet>• PeopleNet Payroll Performance Improvement, maintenance and customization</p>" +
+				"<p data-bullet>• Attendance control system implementation, customization and maintenance.</p>" +
+				"<p data-bullet>• Data extraction, analysis and publication.</p>" +
+				"<p data-bullet>• Technological upgrades</p>" +
+				"<p data-bullet>• Stress Testing</p>" +
+				"<p data-bullet>• User and developer trainings</p>"
 		},
 		// {
 		// 	position: 'Senior Developer', company: 'LEMA', start: 'August 2013', end: 'October 2014', country: 'Chile',

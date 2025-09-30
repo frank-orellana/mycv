@@ -122,19 +122,61 @@ section:first-child {
 	padding-top: 4px;
 }
 
-.sectionContent p, .sectionContent li{
+.sectionContent p {
   padding: 0 5px 0 10px;
 	font-size: 13px;
 }
+
+.sectionContent p[data-bullet] {
+  padding-left: 16px;
+  text-indent: -8px;
+  margin-bottom: 1px;
+  line-height: 15px;
+}
+
 .no-wrap {
 	white-space: nowrap;
 }
-.sectionContent ul{
-  list-style: none; 
+
+/* General bullet point styling */
+.sectionContent ul {
+  list-style: none;
+  padding: 0 10px;
 }
-.sectionContent ul li::before{
-	content: "\2022";
-	display: inline-block;
+
+.sectionContent ul li {
+  padding-left: 12px;
+  text-indent: -8px;
+  line-height: 15px;
+  margin-bottom: 3px;
+  font-size: 13px;
+}
+
+.sectionContent ul li:before {
+	content: "•";
+	padding-right: 4px;
+}
+
+/* Personal links specific styling */
+.personal-links {
+  padding-left: 0;
+}
+
+.personal-links li {
+  padding-left: 16px;
+  margin-left: 0;
+}
+
+/* Language section styling */
+.keySkills.noBullet li:before {
+  content: "•";
+  padding-right: 4px;
+  display: inline-block;
+}
+
+.keySkills.noBullet li {
+  padding-left: 12px;
+  text-indent: -8px;
 }
 
 .sectionTitle h1 {
@@ -167,11 +209,20 @@ section:first-child {
 	margin-bottom: 10px;
 	font-size: 1em;
 	color: #444;
+	padding: 0 10px;
 }
 
-.keySkills ul li {
+.keySkills li {
 	margin-bottom: 3px;
-	font-size: 0.8em;
+	font-size: 13px;
+	padding-left: 12px;
+	text-indent: -8px;
+	line-height: 15px;
+}
+
+.keySkills li:before {
+	content: "•";
+	padding-right: 5px;
 }
 
 @media screen {
@@ -286,6 +337,12 @@ section:first-child {
 
 		.no-break {
 			page-break-inside: avoid;
+		}
+
+		/* Prevent breaking inside experience entries */
+		.sectionContent > article {
+			page-break-inside: avoid;
+			break-inside: avoid;
 		}
 
 		.personal-links {
