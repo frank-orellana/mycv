@@ -5,10 +5,10 @@
   "index.html": [
     "./assets/headshot-j8bR2R4Y.png"
   ],
-  "node_modules/.pnpm/@unhead+vue@2.0.17_vue@3.5.22_typescript@5.9.2_/node_modules/@unhead/vue/dist/client.mjs": [
+  "node_modules/.pnpm/@unhead+vue@2.0.19_vue@3.5.22_typescript@5.9.3_/node_modules/@unhead/vue/dist/client.mjs": [
     "./assets/headshot-j8bR2R4Y.png"
   ],
-  "node_modules/.pnpm/@unhead+vue@2.0.17_vue@3.5.22_typescript@5.9.2_/node_modules/@unhead/vue/dist/shared/vue.BYLJNEcq.mjs": [
+  "node_modules/.pnpm/@unhead+vue@2.0.19_vue@3.5.22_typescript@5.9.3_/node_modules/@unhead/vue/dist/shared/vue.Bm-NbY4b.mjs": [
     "./assets/headshot-j8bR2R4Y.png"
   ],
   "node_modules/.pnpm/@vue+reactivity@3.5.22/node_modules/@vue/reactivity/dist/reactivity.esm-bundler.js": [
@@ -32,28 +32,28 @@
   "node_modules/.pnpm/simple-i18n-ts@0.1.0/node_modules/simple-i18n-ts/dist/tools.js": [
     "./assets/headshot-j8bR2R4Y.png"
   ],
-  "node_modules/.pnpm/unhead@2.0.17/node_modules/unhead/dist/client.mjs": [
+  "node_modules/.pnpm/unhead@2.0.19/node_modules/unhead/dist/client.mjs": [
     "./assets/headshot-j8bR2R4Y.png"
   ],
-  "node_modules/.pnpm/unhead@2.0.17/node_modules/unhead/dist/shared/unhead.BpRRHAhY.mjs": [
+  "node_modules/.pnpm/unhead@2.0.19/node_modules/unhead/dist/shared/unhead.BpRRHAhY.mjs": [
     "./assets/headshot-j8bR2R4Y.png"
   ],
-  "node_modules/.pnpm/unhead@2.0.17/node_modules/unhead/dist/shared/unhead.DH45uomy.mjs": [
+  "node_modules/.pnpm/unhead@2.0.19/node_modules/unhead/dist/shared/unhead.DH45uomy.mjs": [
     "./assets/headshot-j8bR2R4Y.png"
   ],
-  "node_modules/.pnpm/unhead@2.0.17/node_modules/unhead/dist/shared/unhead.DZbvapt-.mjs": [
+  "node_modules/.pnpm/unhead@2.0.19/node_modules/unhead/dist/shared/unhead.DZbvapt-.mjs": [
     "./assets/headshot-j8bR2R4Y.png"
   ],
-  "node_modules/.pnpm/unhead@2.0.17/node_modules/unhead/dist/shared/unhead.yem5I2v_.mjs": [
+  "node_modules/.pnpm/unhead@2.0.19/node_modules/unhead/dist/shared/unhead.yem5I2v_.mjs": [
     "./assets/headshot-j8bR2R4Y.png"
   ],
-  "node_modules/.pnpm/vite-ssg@28.1.0_unhead@2.0.17_vite@7.1.7_terser@5.44.0__vue@3.5.22_typescript@5.9.2_/node_modules/vite-ssg/dist/client/single-page.mjs": [
+  "node_modules/.pnpm/vite-ssg@28.2.1_postcss@8.5.6_unhead@2.0.19_vite@7.1.9_terser@5.44.0__vue@3.5.22_typescript@5.9.3_/node_modules/vite-ssg/dist/client/single-page.mjs": [
     "./assets/headshot-j8bR2R4Y.png"
   ],
-  "node_modules/.pnpm/vite-ssg@28.1.0_unhead@2.0.17_vite@7.1.7_terser@5.44.0__vue@3.5.22_typescript@5.9.2_/node_modules/vite-ssg/dist/shared/vite-ssg.C6pK7rvr.mjs": [
+  "node_modules/.pnpm/vite-ssg@28.2.1_postcss@8.5.6_unhead@2.0.19_vite@7.1.9_terser@5.44.0__vue@3.5.22_typescript@5.9.3_/node_modules/vite-ssg/dist/shared/vite-ssg.C6pK7rvr.mjs": [
     "./assets/headshot-j8bR2R4Y.png"
   ],
-  "node_modules/.pnpm/vite-ssg@28.1.0_unhead@2.0.17_vite@7.1.7_terser@5.44.0__vue@3.5.22_typescript@5.9.2_/node_modules/vite-ssg/dist/shared/vite-ssg.ETIvV-80.mjs": [
+  "node_modules/.pnpm/vite-ssg@28.2.1_postcss@8.5.6_unhead@2.0.19_vite@7.1.9_terser@5.44.0__vue@3.5.22_typescript@5.9.3_/node_modules/vite-ssg/dist/shared/vite-ssg.ETIvV-80.mjs": [
     "./assets/headshot-j8bR2R4Y.png"
   ],
   "src/App.vue?vue&type=script&setup=true&lang.ts": [

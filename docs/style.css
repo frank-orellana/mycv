@@ -327,8 +327,9 @@ section:first-child {
 		}
 
 		/* Remove backgrounds in print mode */
-		html, body, .mainDetails, #mainArea, section, .sectionTitle {
+		html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video {
 			background: none;
+			color: black;
 		}
 
 		section {
@@ -351,7 +352,7 @@ section:first-child {
 		}
 
 		#name h1, #name h2, .sectionTitle h1, #contactDetails ul li *, a[href^=tel]  {
-			color: darkslategray;
+			color: black;
 		}
 }
 
