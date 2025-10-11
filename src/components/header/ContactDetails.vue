@@ -7,7 +7,7 @@
       </li>
       <li>
         <i class="fab fa-linkedin-in" aria-hidden="true"></i>:
-        <a href="www.linkedin.com/in/frank-orellana-pineda" target="_blank" rel="noopener">linkedin.com/in/frank-orellana-pineda</a>
+        <a href="https://www.linkedin.com/in/frank-orellana-pineda" target="_blank" rel="noopener">linkedin.com/in/frank-orellana-pineda</a>
       </li>
       <li>
         <i class="fas fa-globe" aria-hidden="true"></i>:
