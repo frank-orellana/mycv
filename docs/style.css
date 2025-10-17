@@ -12,7 +12,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
 display:block;
 }
 
-html, body {background: #181818; font-family: Calibri, helvetica, arial, sans-serif; font-size: 16px; color: #222;}
+html, body {background: #181818; font-size: 16px; color: #222;}
 
 .clear {clear: both;}
 
@@ -40,14 +40,12 @@ p {
 #name h1 {
 	font-size: 2.5em;
 	font-weight: 700;
-	font-family:  Calibri, Helvetica, Arial, sans-serif;
 	margin-bottom: -6px;
 }
 
 #name h2 {
 	font-size: 1.5em;
 	margin-left: 2px;
-	font-family: Calibri, Helvetica, Arial, sans-serif;
 }
 
 #mainArea {
@@ -180,7 +178,6 @@ section:first-child {
 }
 
 .sectionTitle h1 {
-	font-family: Calibri, Helvetica, Arial, sans-serif;
 	font-style: italic;
 	font-size: 1em;
 	color: white;
@@ -188,7 +185,6 @@ section:first-child {
 }
 
 .sectionContent h2 {
-	font-family: Calibri, Helvetica, Arial, sans-serif;
 	font-size: 1em;
 	margin-bottom: -2px;
 	font-weight: bold;
@@ -226,6 +222,11 @@ section:first-child {
 }
 
 @media screen {
+
+	html, body, #name h1, #name h2, .sectionTitle h1, .sectionTitle h2 {
+		font-family: Calibri, helvetica, arial, sans-serif; 
+	} 
+
 	/* Dark theme colors - only apply on screen */
 	.mainDetails {
 		background: darkblue;
@@ -320,6 +321,11 @@ section:first-child {
 }
 
 @media print {
+
+	html, body, #name h1, #name h2, .sectionTitle h1, .sectionTitle h2 {
+		font-family: arial, helvetica, sans-serif; 
+	} 
+
     #app {
 				width: 100%;
 				margin: 0;
