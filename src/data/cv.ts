@@ -14,7 +14,7 @@ const cv_es: CV = {
 		'capacitación y trato con usuarios.</p>',
 	experience: [
 		{
-			position: 'Software Engineer', company: 'META', start: 'Mayo 2022', end: 'actual', country: 'USA',
+			position: 'Software Engineer', company: 'META', start: 'Mayo 2022', end: 'Septiembre 2025', country: 'USA',
 			description: 'Trabajando con tecnologías como ReactJS, GraphQL, Html5, ES6+, PHP, Python'
 		},
 		{
@@ -168,7 +168,7 @@ const cv_en: CV = {
 	`,
 	experience: [
 		{
-			position: 'Software Engineer', company: 'META', start: 'May 2022', end: 'actual', country: 'USA',
+			position: 'Software Engineer', company: 'META', start: 'May 2022', end: 'September 2025', country: 'USA',
 			description:
 				'<p>Software Engineer on the Actionable Insights team, responsible for developing and enhancing features for Meta\'s Network Insights product.</p>' +
 				'<p>Led development and optimization of Network Insights features, focusing on data handling efficiency, user experience improvements, and successful feature releases to drive business growth and partner satisfaction.</p>' +
