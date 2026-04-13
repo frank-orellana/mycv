@@ -47,13 +47,16 @@
   "node_modules/.pnpm/unhead@2.1.13/node_modules/unhead/dist/shared/unhead.yem5I2v_.mjs": [
     "./assets/headshot-j8bR2R4Y.png"
   ],
-  "node_modules/.pnpm/vite-ssg@28.3.0_unhead@2.1.13_vite@7.3.2_terser@5.46.1__vue@3.5.32_typescript@5.9.3_/node_modules/vite-ssg/dist/client/single-page.mjs": [
+  "node_modules/.pnpm/vite-ssg@28.3.0_unhead@2.1.13_vite@8.0.8_esbuild@0.27.7_terser@5.46.1__vue@3.5.32_typescript@5.9.3_/node_modules/vite-ssg/dist/client/single-page.mjs": [
     "./assets/headshot-j8bR2R4Y.png"
   ],
-  "node_modules/.pnpm/vite-ssg@28.3.0_unhead@2.1.13_vite@7.3.2_terser@5.46.1__vue@3.5.32_typescript@5.9.3_/node_modules/vite-ssg/dist/shared/vite-ssg.C6pK7rvr.mjs": [
+  "node_modules/.pnpm/vite-ssg@28.3.0_unhead@2.1.13_vite@8.0.8_esbuild@0.27.7_terser@5.46.1__vue@3.5.32_typescript@5.9.3_/node_modules/vite-ssg/dist/shared/vite-ssg.C6pK7rvr.mjs": [
     "./assets/headshot-j8bR2R4Y.png"
   ],
-  "node_modules/.pnpm/vite-ssg@28.3.0_unhead@2.1.13_vite@7.3.2_terser@5.46.1__vue@3.5.32_typescript@5.9.3_/node_modules/vite-ssg/dist/shared/vite-ssg.ETIvV-80.mjs": [
+  "node_modules/.pnpm/vite-ssg@28.3.0_unhead@2.1.13_vite@8.0.8_esbuild@0.27.7_terser@5.46.1__vue@3.5.32_typescript@5.9.3_/node_modules/vite-ssg/dist/shared/vite-ssg.ETIvV-80.mjs": [
+    "./assets/headshot-j8bR2R4Y.png"
+  ],
+  "src/App.vue": [
     "./assets/headshot-j8bR2R4Y.png"
   ],
   "src/App.vue?vue&type=script&setup=true&lang.ts": [
@@ -68,40 +71,79 @@
   "src/assets/headshot.png": [
     "./assets/headshot-j8bR2R4Y.png"
   ],
+  "src/components/Curriculum.vue": [
+    "./assets/headshot-j8bR2R4Y.png"
+  ],
   "src/components/Curriculum.vue?vue&type=script&setup=true&lang.ts": [
+    "./assets/headshot-j8bR2R4Y.png"
+  ],
+  "src/components/header/ContactDetails.vue": [
     "./assets/headshot-j8bR2R4Y.png"
   ],
   "src/components/header/ContactDetails.vue?vue&type=script&setup=true&lang.ts": [
     "./assets/headshot-j8bR2R4Y.png"
   ],
+  "src/components/header/Header.vue": [
+    "./assets/headshot-j8bR2R4Y.png"
+  ],
   "src/components/header/Header.vue?vue&type=script&setup=true&lang.ts": [
+    "./assets/headshot-j8bR2R4Y.png"
+  ],
+  "src/components/mainArea/MainArea.vue": [
     "./assets/headshot-j8bR2R4Y.png"
   ],
   "src/components/mainArea/MainArea.vue?vue&type=script&setup=true&lang.ts": [
     "./assets/headshot-j8bR2R4Y.png"
   ],
+  "src/components/mainArea/sections/Courses.vue": [
+    "./assets/headshot-j8bR2R4Y.png"
+  ],
   "src/components/mainArea/sections/Courses.vue?vue&type=script&setup=true&lang.ts": [
+    "./assets/headshot-j8bR2R4Y.png"
+  ],
+  "src/components/mainArea/sections/Education.vue": [
     "./assets/headshot-j8bR2R4Y.png"
   ],
   "src/components/mainArea/sections/Education.vue?vue&type=script&setup=true&lang.ts": [
     "./assets/headshot-j8bR2R4Y.png"
   ],
+  "src/components/mainArea/sections/Experience.vue": [
+    "./assets/headshot-j8bR2R4Y.png"
+  ],
   "src/components/mainArea/sections/Experience.vue?vue&type=script&setup=true&lang.ts": [
+    "./assets/headshot-j8bR2R4Y.png"
+  ],
+  "src/components/mainArea/sections/Interests.vue": [
     "./assets/headshot-j8bR2R4Y.png"
   ],
   "src/components/mainArea/sections/Interests.vue?vue&type=script&setup=true&lang.ts": [
     "./assets/headshot-j8bR2R4Y.png"
   ],
+  "src/components/mainArea/sections/KeySkills.vue": [
+    "./assets/headshot-j8bR2R4Y.png"
+  ],
   "src/components/mainArea/sections/KeySkills.vue?vue&type=script&setup=true&lang.ts": [
+    "./assets/headshot-j8bR2R4Y.png"
+  ],
+  "src/components/mainArea/sections/Languages.vue": [
     "./assets/headshot-j8bR2R4Y.png"
   ],
   "src/components/mainArea/sections/Languages.vue?vue&type=script&setup=true&lang.ts": [
     "./assets/headshot-j8bR2R4Y.png"
   ],
+  "src/components/mainArea/sections/PersonalLinks.vue": [
+    "./assets/headshot-j8bR2R4Y.png"
+  ],
   "src/components/mainArea/sections/PersonalLinks.vue?vue&type=script&setup=true&lang.ts": [
     "./assets/headshot-j8bR2R4Y.png"
   ],
+  "src/components/mainArea/sections/PersonalProjects.vue": [
+    "./assets/headshot-j8bR2R4Y.png"
+  ],
   "src/components/mainArea/sections/PersonalProjects.vue?vue&type=script&setup=true&lang.ts": [
+    "./assets/headshot-j8bR2R4Y.png"
+  ],
+  "src/components/mainArea/sections/Title.vue": [
     "./assets/headshot-j8bR2R4Y.png"
   ],
   "src/components/mainArea/sections/Title.vue?vue&type=script&setup=true&lang.ts": [
