@@ -1,5 +1,6 @@
 import { CV } from "./model/cv.js";
 
+// Spanish CV version
 const cv_es: CV = {
 	profile: '<p>Desarrollador Senior con mas de 15 años de experiencia con Java, Javascript y Oracle PL-SQL, y mas de 10 años de experiencia con Meta4 PeopleNet.</p>' +
 		'<p>Con mucha experiencia en desarrollo, implementación, análisis ' +
@@ -15,7 +16,17 @@ const cv_es: CV = {
 	experience: [
 		{
 			position: 'Software Engineer', company: 'META', start: 'Mayo 2022', end: 'Septiembre 2025', country: 'USA',
-			description: 'Trabajando con tecnologías como ReactJS, GraphQL, Html5, ES6+, PHP, Python'
+			description:
+				'<p>Ingeniero de Software en el equipo de Actionable Insights, responsable del desarrollo y mejora de características para el producto Network Insights de Meta.</p>' +
+				'<p>Lideré el desarrollo y optimización de características de Network Insights, enfocándome en la eficiencia del manejo de datos, mejoras en la experiencia del usuario y lanzamientos exitosos de características para impulsar el crecimiento del negocio y la satisfacción de los socios.</p>' +
+				'<p>Trabajé principalmente con ReactJS para desarrollo frontend, JavaScript con Flow (sistema de tipos de Meta, similar a TypeScript), Python para servicios backend y pipelines de datos, y PHP (llamado internamente Hack) para APIs backend.</p>' +
+				'<p>Logros Clave:</p>' +
+				'<p data-bullet>• Desarrollé y optimicé características para Actionable Insights, mejorando la eficiencia del manejo de datos y el rendimiento de la red.</p>' +
+				'<p data-bullet>• Colaboré con equipos multifuncionales para asegurar el lanzamiento exitoso de nuevas características y mejoras.</p>' +
+				'<p data-bullet>• Realicé revisiones de código exhaustivas y proporcioné retroalimentación constructiva para fortalecer la calidad del código del equipo.</p>' +
+				'<p data-bullet>• Definí e implementé procesos eficientes para manejar solicitudes de socios e internas a través de la gestión de backlog y tickets de servicio.</p>' +
+				'<p data-bullet>• Mentoré a miembros junior del equipo y bootcampers, fomentando el crecimiento técnico y las mejores prácticas.</p>',
+			icon: 'fa-brands fa-meta'
 		},
 		{
 			position: 'Senior Software Developer', company: 'COLLABERA Inc', start: 'Octubre 2021', end: 'Abril 2022', country: 'USA',
@@ -154,6 +165,7 @@ const cv_es: CV = {
 	phone: '+1 (857) 389-9796'
 }
 
+// English CV version
 const cv_en: CV = {
 	profile: `
 	<p>Software engineer with 15+ years building production systems and experience in data analysis, combining statistics and machine learning coursework with hands-on projects. Demonstrated ability to merge solid software engineering practices (scalable services, testing, CI/CD) with data-oriented skills in Python and R for reproducible analysis, visualization and prototyping.</p>
@@ -172,6 +184,7 @@ const cv_en: CV = {
 			description:
 				'<p>Software Engineer on the Actionable Insights team, responsible for developing and enhancing features for Meta\'s Network Insights product.</p>' +
 				'<p>Led development and optimization of Network Insights features, focusing on data handling efficiency, user experience improvements, and successful feature releases to drive business growth and partner satisfaction.</p>' +
+				'<p>Primarily worked with ReactJS for frontend development, JavaScript with Flow (Meta\'s type system, similar to TypeScript), Python for backend services and data pipelines, and PHP (internally called Hack) for backend APIs.</p>' +
 				'<p>Key Achievements:</p>' +
 				'<p data-bullet>• Developed and optimized features for Actionable Insights, improving data handling efficiency and network performance.</p>' +
 				'<p data-bullet>• Collaborated with cross-functional teams to ensure successful release of new features and improvements.</p>' +
@@ -312,7 +325,7 @@ const cv_en: CV = {
 }
 
 
-// FULLSTACK CV
+// Spanish FULLSTACK CV version
 
 // FS ES
 
