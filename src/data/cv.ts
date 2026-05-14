@@ -17,15 +17,12 @@ const cv_es: CV = {
 		{
 			position: 'Software Engineer', company: 'META', start: 'Mayo 2022', end: 'Septiembre 2025', country: 'USA',
 			description:
-				'<p>Ingeniero de Software en el equipo de Actionable Insights, responsable del desarrollo y mejora de características para el producto Network Insights de Meta.</p>' +
-				'<p>Lideré el desarrollo y optimización de características de Network Insights, enfocándome en la eficiencia del manejo de datos, mejoras en la experiencia del usuario y lanzamientos exitosos de características para impulsar el crecimiento del negocio y la satisfacción de los socios.</p>' +
-				'<p>Trabajé principalmente con ReactJS para desarrollo frontend, JavaScript con Flow (sistema de tipos de Meta, similar a TypeScript), Python para servicios backend y pipelines de datos, y PHP (llamado internamente Hack) para APIs backend.</p>' +
-				'<p>Logros Clave:</p>' +
-				'<p data-bullet>• Desarrollé y optimicé características para Actionable Insights, mejorando la eficiencia del manejo de datos y el rendimiento de la red.</p>' +
-				'<p data-bullet>• Colaboré con equipos multifuncionales para asegurar el lanzamiento exitoso de nuevas características y mejoras.</p>' +
-				'<p data-bullet>• Realicé revisiones de código exhaustivas y proporcioné retroalimentación constructiva para fortalecer la calidad del código del equipo.</p>' +
-				'<p data-bullet>• Definí e implementé procesos eficientes para manejar solicitudes de socios e internas a través de la gestión de backlog y tickets de servicio.</p>' +
-				'<p data-bullet>• Mentoré a miembros junior del equipo y bootcampers, fomentando el crecimiento técnico y las mejores prácticas.</p>',
+				'<p>Ingeniero de Software en el equipo de Actionable Insights, construyendo y optimizando el producto Network Insights de Meta para mejorar la eficiencia de los datos y la experiencia del usuario.</p>' +
+				'<p data-bullet>• Desarrollé funciones de alto rendimiento usando React, Flow (Typescript), Python y Hack (PHP), con enfoque en pipelines de datos y APIs backend.</p>' +
+				'<p data-bullet>• Lideré iniciativas multifuncionales para entregar mejoras de producto de extremo a extremo que aumentaron la satisfacción de los socios.</p>' +
+				'<p data-bullet>• Mentoré a ingenieros junior y bootcampers mientras mantenía altos estándares de código mediante revisiones constructivas.</p>' +
+				'<p data-bullet>• Optimicé los flujos de trabajo de solicitudes internas y la gestión del backlog para mejorar la velocidad de entrega del equipo.</p>' +
+				'<p data-bullet>• Aproveché tecnologías específicas de Meta como GraphQL, Presto y Ent Framework para sistemas escalables.</p>',
 			icon: 'fa-brands fa-meta'
 		},
 		{
@@ -41,7 +38,7 @@ const cv_es: CV = {
 			description: 'Desarrollador Senior Full-Stack en Everis, destacado en Scotiabank Chile, trabajando con tecnologías como ReactJS, SpringBoot entre otras.'
 		},
 		{
-			position: 'Desarrollador Senior', company: 'TRITIUM', start: 'Octubre 2014', end: 'Actualidad', country: 'Chile',
+			position: 'Desarrollador Senior', company: 'TRITIUM', start: 'Octubre 2014', end: 'Mayo 2022', country: 'Chile',
 			description: "Partner y Consultor, dedicado principalmente al apoyo a clientes en sus sistemas de Recursos humanos y otros, especializándome sobre todo en los sistemas Meta4 PeopleNet, Meta4 SelfService, Oracle Java y PL-SQL, R, entre otros, y en la integración de dichas tecnologías con otros sistemas de software y hardware.<br>" +
 				"<p>Entre las actividades realizadas en proyectos en los que he participado se encuentran:</p>" +
 				"<p data-bullet>• Implementación de software Meta4/PeopleNet, Nómina, AutoServicio y RRHH (Evaluación, Selección, Capacitación, entre otros)</p>" +
@@ -173,7 +170,7 @@ const cv_en: CV = {
 	<p>Key strengths: designing and implementing robust data pipelines and APIs, exploratory data analysis and visualization, reproducible analysis, and collaborating with cross-functional teams to deliver production-ready solutions.</p>
 	<p>Technical highlights:</p>
 	<p data-bullet>• Engineering: Backend APIs (Node.js, Express, Java/SpringBoot), relational databases (Oracle, SQL Server, Postgres), and CI/CD-driven deployments.</p>
-	<p data-bullet>• Frontend engineering: interactive UI development, client-side data visualization and mapping with React and JavaScript, attention to performance and usability for large datasets.</p>
+	<p data-bullet>• Frontend engineering: interactive UI development, client-side data visualization and mapping with React and JavaScript/Typescript, attention to performance and usability for large datasets.</p>
 	<p data-bullet>• Data pipelines & interactive visualization: scripting for ETL and reproducible analysis; practical experience building interactive visualizations and mapping front-ends using React and JavaScript.</p>
 	<p data-bullet>• Data & ML (interest): basic familiarity with Python for data tasks (primarily used for ETL, cleaning and processing; introductory exposure to pandas/NumPy) and coursework in statistical concepts and introductory ML.</p>
 	<p>Strong experience in extracting, cleaning and visualizing datasets, with active development of projects demonstrating applied data skills. Seeking opportunities to apply software engineering expertise and growing data-science capabilities to scientific problems.</p>
@@ -182,16 +179,13 @@ const cv_en: CV = {
 		{
 			position: 'Software Engineer', company: 'META', start: 'May 2022', end: 'September 2025', country: 'USA',
 			description:
-				'<p>Software Engineer on the Actionable Insights team, responsible for developing and enhancing features for Meta\'s Network Insights product.</p>' +
-				'<p>Led development and optimization of Network Insights features, focusing on data handling efficiency, user experience improvements, and successful feature releases to drive business growth and partner satisfaction.</p>' +
-				'<p>Primarily worked with ReactJS for frontend development, JavaScript with Flow (Meta\'s type system, similar to TypeScript), Python for backend services and data pipelines, and PHP (internally called Hack) for backend APIs.</p>' +
-				'<p>Key Achievements:</p>' +
-				'<p data-bullet>• Developed and optimized features for Actionable Insights, improving data handling efficiency and network performance.</p>' +
-				'<p data-bullet>• Collaborated with cross-functional teams to ensure successful release of new features and improvements.</p>' +
-				'<p data-bullet>• Conducted thorough code reviews and provided constructive feedback to strengthen team code quality.</p>' +
-				'<p data-bullet>• Defined and implemented efficient processes for handling partner and internal requests through backlog and service ticket management.</p>' +
-				'<p data-bullet>• Mentored junior team members and bootcampers, fostering technical growth and best practices.</p>',
-				icon: 'fa-brands fa-meta'
+				'<p>Software Engineer on the Actionable Insights team, building and optimizing Meta’s Network Insights product to improve data efficiency and user experience.</p>' +
+				'<p data-bullet>• Developed high-performance features using React, Flow (Typescript), Python, and Hack (PHP), focusing on data pipelines and backend APIs.</p>' +
+				'<p data-bullet>• Led cross-functional initiatives to deliver end-to-end product improvements that increased partner satisfaction.</p>' +
+				'<p data-bullet>• Mentored junior engineers and bootcampers while maintaining high code standards through constructive code reviews.</p>' +
+				'<p data-bullet>• Optimized internal service request workflows and backlog management to improve team delivery speed.</p>' +
+				'<p data-bullet>• Leveraged Meta-specific technologies including GraphQL, Presto, and Ent Framework for scalable systems.</p>',
+			icon: 'fa-brands fa-meta'
 		},
 		{
 			position: 'Senior Software Developer', company: 'COLLABERA', start: 'October 2021', end: 'April 2022', country: 'USA',
@@ -206,7 +200,7 @@ const cv_en: CV = {
 			description: '<p>Senior Full-Stack developer at Everis, working for Scotiabank Chile with technologies such as ReactJS, SpringBoot, Jenkins, Sonarcube among others, in a project driven with the scrum methodology</p>'
 		},
 		{
-			position: 'Partner / Sr. Consultant', company: 'TRITIUM', start: 'October 2014', end: 'Current', country: 'Chile',
+			position: 'Partner / Sr. Consultant', company: 'TRITIUM', start: 'October 2014', end: 'May 2022', country: 'Chile',
 			description: "<p>Working for our customers with enterprise class HR software, especially with Meta4 PeopleNet, providing consulting services in different HR and tech areas.</p>" +
 				"<p>Projects Responsibilities:</p>" +
 				"<p data-bullet>• Software implementation: Meta4/PeopleNet, Payroll, SelfService and HR (Personnel Evaluation, Selection, Training, among others)</p>" +
